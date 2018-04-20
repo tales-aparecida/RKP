@@ -31,13 +31,18 @@ int* itensMochila_array_partial_id;
 int itensMochila_array_partial_count = 0;
 int max_partial = 0;
 
-void sum(int &partial_val, int i) {
-    // Sum relations
-    // for (int j = 0; j < i; j++) {
-    //     if (itensMochila_array_partial[j])
-    //         partial_val += relation_array[i][j];
-    // }
-    // partial_val += v_g[i];
+/* Parâmetros das funções
+	capacity 		capacidade da mochila
+	quantItens		N itens
+	relation[i][j] 	valor de relações
+	v[i] 			valor do item
+	s[i] 			peso do item
+	itensMochila[] 	resposta
+	maxTime 		timeout em segundos
+*/
+
+// Adds the relation values between items in the partial_items array and `i`, and `i` value itself
+void update_partial_val(int &partial_val, int i) {
     int id;
     for (int j = 0; j < itensMochila_array_partial_count; j++) {
         id = itensMochila_array_partial_id[j];
@@ -47,7 +52,8 @@ void sum(int &partial_val, int i) {
     partial_val += v_g[i];
 }
 
-void copy(int &partial_val) {
+// Just copy the local best answer to the global array if its better
+void save_if_better(int &partial_val) {
     if (partial_val > max_partial) {
         max_partial = partial_val;
         for (int j = 0; j < quantItens_g; j++) {
@@ -56,13 +62,41 @@ void copy(int &partial_val) {
     }
 }
 
-void algH_array(int i, int capacity, int partial_val)
+// update v[j] for all j outside of the solution with relation[i][j]
+void update_values(int i) {
+	for (int j=0; j < quantItens_g; j++)
+		if (!itensMochila_array_partial[j])
+			v_g[j] += relation_array[i][j];
+}
+
+// get the id for the biggest v[id] that fits
+int get_best_id(int capacity) {
+	double curr_v, max_v=0;
+	int max_v_i = -1;
+	for	(int i = 0; i < quantItens_g; i++) {
+		// skip if already in solution
+		if (itensMochila_array_partial[i])
+			continue;
+
+		curr_v = (double)v_g[i] / s_g[i];
+		if (s_g[i] <= capacity && curr_v > max_v) {
+			cout << i << ":" << curr_v << endl;
+			max_v = curr_v;
+			max_v_i = i;
+		}
+	}
+	cout << endl;
+
+	return max_v_i;
+}
+
+void algE_rec(int i, int capacity, int partial_val)
 {
-    if (i == quantItens_g)
+    if (i == quantItens_g || capacity == 0)
         return;
 
     // Analise without me
-    algH_array(i+1, capacity, partial_val);
+    algE_rec(i+1, capacity, partial_val);
 
     // If I fit
     capacity -= s_g[i];
@@ -70,18 +104,18 @@ void algH_array(int i, int capacity, int partial_val)
         itensMochila_array_partial[i] = 1;
         itensMochila_array_partial_id[itensMochila_array_partial_count++] = i;
 
-        sum(partial_val, i);
+        update_partial_val(partial_val, i);
 
-        copy(partial_val);
+        save_if_better(partial_val);
 
         // Analise with me
-        algH_array(i+1, capacity, partial_val);
+        algE_rec(i+1, capacity, partial_val);
         itensMochila_array_partial[i] = 0;
         itensMochila_array_partial_count--;
     }
 }
 
-int algH(int capacity, int quantItens, vector<int> s, vector<int> v, matriz &relation, vector<int>& itensMochila, int maxTime) {
+int algE(int capacity, int quantItens, vector<int> s, vector<int> v, matriz &relation, vector<int>& itensMochila, int maxTime) {
     got_interrupt = false;
     signal(SIGALRM, alarm_handler);
     alarm(maxTime);
@@ -98,7 +132,7 @@ int algH(int capacity, int quantItens, vector<int> s, vector<int> v, matriz &rel
     max_partial = 0;
     quantItens_g = quantItens;
 
-    algH_array(0, capacity, 0);
+    algE_rec(0, capacity, 0);
     // copy response
     for (int i = 0; i < quantItens; i++)
         itensMochila[i] = itensMochila_array[i];
@@ -108,173 +142,49 @@ int algH(int capacity, int quantItens, vector<int> s, vector<int> v, matriz &rel
     return max_partial;
 }
 
-int _algH(int capacity, int quantItens, vector<int> s, vector<int> v, matriz &relation, vector<int>& itensMochila, int maxTime)
-{
-	/*
-	capacity 		capacidade da mochila
-	quantItens		N itens
-	relation[i][j] 	valor de relações
-	v[i] 			valor do item
-	s[i] 			peso do item
-	itensMochila[] 	resposta
-	maxTime 		timeout
-	*/
-	bool carry_in, carry_out = 0, s_overflow;
-	int s_sum, max_v_sum = 0, v_sum;
-	vector<int> items_try = vector<int>(quantItens);
-
-	got_interrupt = false;
-    signal(SIGALRM, alarm_handler);
-  	alarm(maxTime);
-
-	// Clear
-	for (int i=quantItens-1; i >= 0; i--) {
-		itensMochila[i] = 0;
-		items_try[i] = 0;
-	}
-
-	// For each combination
-	while (!carry_out && !got_interrupt) {
-		// Act like a ripple carry adder to generate a new combination
-		carry_in = true;
-		for (int i=quantItens-1; i >= 0 && carry_in; i--) {
-			carry_out = items_try[i] & carry_in;
-			items_try[i] = items_try[i] ^ carry_in;
-			carry_in = carry_out;
-		}
-		if (carry_out)
-			return max_v_sum;
-
-		// Try the combination
-		s_sum = 0;
-		v_sum = 0;
-		s_overflow = false;
-		for (int i=quantItens-1; i >= 0 && !s_overflow; i--) {
-			// Return partial result on timeout
-			if (got_interrupt)
-				return max_v_sum;
-
-			// If item is on set, add its weight and its relations
-			if (items_try[i]) {
-				s_sum += s[i];
-				s_overflow = s_sum > capacity;
-				// If it didn't overflown yet
-				if (!s_overflow) {
-					// Add value
-					v_sum += v[i];
-
-					// Add relation values
-					for (int j=quantItens-1; j > i; j--) {
-						if (items_try[j])
-							v_sum += relation[i][j];
-					}
-				}
-			}
-
-		}
-
-		// save the last best
-		if (!s_overflow && v_sum > max_v_sum) {
-			max_v_sum = v_sum;
-			for (int i=quantItens-1; i >= 0; i--) {
-				itensMochila[i] = items_try[i];
-			}
-		}
-
-		// Return partial result on timeout
+void algH_array(int capacity) {
+	int best_id, res = 0;
+	while (capacity) {
 		if (got_interrupt)
-			return max_v_sum;
-	}
+			return;
 
-	return max_v_sum;
+		// Put the best into solution
+		best_id = get_best_id(capacity);
+		cout << best_id << endl;
+		if (best_id == -1)
+			return;
+
+		capacity -= s_g[best_id];
+		max_partial += v_g[best_id];
+		itensMochila_array_partial[best_id] = 1;
+		update_values(best_id);
+		for (int i = 0; i < quantItens_g; i++)
+			cout << v_g[i] << "|";
+		cout << endl;
+	}
 }
 
-int _algE(int &capacity, int &quantItens, int s[], int v[], double** relation, int* itensMochila, int &maxTime)
-{
-	/*
-	capacity 		capacidade da mochila
-	quantItens		N itens
-	relation[i][j] 	valor de relações
-	v[i] 			valor do item
-	s[i] 			peso do item
-	itensMochila[] 	resposta
-	maxTime 		timeout
-	*/
-	int s_sum, max_v_sum = 0, v_sum, i, j;
-	int items_try[quantItens];
-
-	got_interrupt = false;
-    signal(SIGALRM, alarm_handler);
-  	alarm(maxTime);
-
-	// Clear
-	for (i=quantItens-1; i >= 0; i--) {
-		itensMochila[i] = 0;
-		items_try[i] = 0;
-	}
-
-	i = 0;
-	s_sum = 0;
-	v_sum = 0;
-	while (i >= 0) {
-		// Try to toggle one bit 1 forward
-		for (; i < quantItens; i++) {
-			// Return partial result on timeout
-			if (got_interrupt)
-				return max_v_sum;
-
-			if (s_sum + s[i] <= capacity) {
-				items_try[i] = true;
-
-				s_sum += s[i];
-				// Add product value
-				v_sum += v[i];
-				// Add relation values
-				for (j=i-1; j >= 0; j--) {
-					if (items_try[j])
-						v_sum += relation[i][j];
-				}
-
-				// Save if better
-				if (v_sum > max_v_sum) {
-					max_v_sum = v_sum;
-                    for (j = 0; j < quantItens; j++) {
-                        itensMochila[j] = items_try[j];
-                    }
-				}
-			}
-		}
-
-		// Return to the last 1
-		for (i=i-1; i >= 0 && !items_try[i]; i--);
-
-		// Toggle to 0
-		if (i >= 0) {
-			items_try[i] = false;
-
-			// Update values without it
-			s_sum -= s[i];
-			v_sum -= v[i];
-			for (j=i-1; j >= 0; j--) {
-				if (items_try[j])
-					v_sum -= relation[i][j];
-			}
-			i++;
-		}
-	}
-
-	return max_v_sum;
-}
-
-int algE(int capacity, int quantItens, vector<int> s, vector<int> v, matriz &relation, vector<int>& itensMochila, int maxTime)
-{
-    double* mat[quantItens];
-    int res[quantItens];
-    for (int i = 0; i < quantItens; i++)
-        mat[i] = &relation[i][0];
-    int r = _algE(capacity, quantItens, (int*)&s[0], (int*)&v[0], mat, res, maxTime);
+int algH(int capacity, int quantItens, vector<int> s, vector<int> v, matriz &relation, vector<int>& itensMochila, int maxTime) {
+    quantItens_g = quantItens;
+	s_g = &s[0];
+    v_g = &v[0];
+    itensMochila_array_partial = (int*)calloc(quantItens, sizeof(int));
+    relation_array = (double**)malloc(quantItens * sizeof(double*));
     for (int i = 0; i < quantItens; i++) {
-        itensMochila[i] = res[i];
+        relation_array[i] = &relation[i][0];
     }
-    return r;
+	for (int i = 0; i < quantItens; i++)
+		cout << v_g[i] << "|";
+	cout << endl;
+
+    got_interrupt = false;
+    signal(SIGALRM, alarm_handler);
+    alarm(maxTime);
+
+	algH_array(capacity);
+
+	for (int j = 0; j < quantItens_g; j++) {
+		itensMochila[j] = itensMochila_array_partial[j];
+	}
+	return max_partial;
 }
