@@ -1,5 +1,5 @@
 CC=g++
-CFLAGS=-I. -lstdc++
+CFLAGS=-I. -lstdc++ -g
 DEPS = pmr.h
 OBJ = pmr.o pmr_e_h.o 
 

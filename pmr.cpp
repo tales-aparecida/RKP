@@ -87,8 +87,8 @@ int main(int argc, char *argv[])
 	// srand48(seed);  // mhmulati
 	
 	// Variables that represent the input of the problem
-	int capacity;
-	int quantItens;
+	int capacity = 0;
+	int quantItens = 0;
 	vector<int> s;	//sizes
     	vector<int> v;	//values	
 	matriz relation;
@@ -97,7 +97,7 @@ int main(int argc, char *argv[])
 	
 	vector<int> itensMochila(quantItens);
 	
-	show_input(capacity, quantItens, s, v, relation, exec);
+	// show_input(capacity, quantItens, s, v, relation, exec);
 	
    double elapsed_time = numeric_limits<double>::max();
    clock_t before = clock();
@@ -115,8 +115,8 @@ int main(int argc, char *argv[])
 	}
 	
 	cout << "valor encontrado: "<< OptimalSolution << endl;
-   clock_t after = clock();
-   elapsed_time = (double) (after-before) / CLOCKS_PER_SEC;
+   	clock_t after = clock();
+   	elapsed_time = (double) (after-before) / CLOCKS_PER_SEC;
     cout << elapsed_time << endl;
     
 	// Verificar se é de fato uma solução para a instância

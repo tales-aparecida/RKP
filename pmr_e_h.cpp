@@ -41,58 +41,10 @@ int max_partial = 0;
 	maxTime 		timeout em segundos
 */
 
-// Adds the relation values between items in the partial_items array and `i`, and `i` value itself
-void update_partial_val(int &partial_val, int i) {
-    int id;
-    for (int j = 0; j < itensMochila_array_partial_count; j++) {
-        id = itensMochila_array_partial_id[j];
-        if (itensMochila_array_partial[id])
-            partial_val += relation_array[i][id];
-    }
-    partial_val += v_g[i];
-}
-
-// Just copy the local best answer to the global array if its better
-void save_if_better(int &partial_val) {
-    if (partial_val > max_partial) {
-        max_partial = partial_val;
-        for (int j = 0; j < quantItens_g; j++) {
-            itensMochila_array[j] = itensMochila_array_partial[j];
-        }
-    }
-}
-
-// update v[j] for all j outside of the solution with relation[i][j]
-void update_values(int i) {
-	for (int j=0; j < quantItens_g; j++)
-		if (!itensMochila_array_partial[j])
-			v_g[j] += relation_array[i][j];
-}
-
-// get the id for the biggest v[id] that fits
-int get_best_id(int capacity) {
-	double curr_v, max_v=0;
-	int max_v_i = -1;
-	for	(int i = 0; i < quantItens_g; i++) {
-		// skip if already in solution
-		if (itensMochila_array_partial[i])
-			continue;
-
-		curr_v = (double)v_g[i] / s_g[i];
-		if (s_g[i] <= capacity && curr_v > max_v) {
-			cout << i << ":" << curr_v << endl;
-			max_v = curr_v;
-			max_v_i = i;
-		}
-	}
-	cout << endl;
-
-	return max_v_i;
-}
-
 void algE_rec(int i, int capacity, int partial_val)
 {
-    if (i == quantItens_g || capacity == 0)
+    int id;
+    if (i == quantItens_g || capacity == 0 || got_interrupt)
         return;
 
     // Analise without me
@@ -104,9 +56,21 @@ void algE_rec(int i, int capacity, int partial_val)
         itensMochila_array_partial[i] = 1;
         itensMochila_array_partial_id[itensMochila_array_partial_count++] = i;
 
-        update_partial_val(partial_val, i);
+        // Adds the relation values between items in the partial_items array and `i`, and `i` value itself
+        for (int j = 0; j < itensMochila_array_partial_count-1; j++) {
+            id = itensMochila_array_partial_id[j];
+            if (itensMochila_array_partial[id])
+                partial_val += relation_array[i][id];
+        }
+        partial_val += v_g[i];
 
-        save_if_better(partial_val);
+        // save if better
+        if (partial_val > max_partial) {
+            max_partial = partial_val;
+            for (int j = 0; j < quantItens_g; j++) {
+                itensMochila_array[j] = itensMochila_array_partial[j];
+            }
+        }
 
         // Analise with me
         algE_rec(i+1, capacity, partial_val);
@@ -139,28 +103,49 @@ int algE(int capacity, int quantItens, vector<int> s, vector<int> v, matriz &rel
 
     free(itensMochila_array);
     free(itensMochila_array_partial);
+    free(itensMochila_array_partial_id);
+    free(relation_array);
     return max_partial;
 }
 
-void algH_array(int capacity) {
-	int best_id, res = 0;
+// get the id for the biggest v[id] that fits
+int get_best_id(int capacity) {
+	double curr_v, max_v = 0;
+	int max_v_i = -1;
+	for	(int i = 0; i < quantItens_g; i++) {
+		// skip if already in solution
+		if (itensMochila_array_partial[i])
+			continue;
+
+        curr_v = (double)v_g[i] / s_g[i];
+        if (s_g[i] <= capacity && curr_v > max_v) {
+            max_v = curr_v;
+            max_v_i = i;
+        }		
+	}
+
+	return max_v_i;
+}
+
+void algH_array(int &capacity) {
+	int best_id, j;
 	while (capacity) {
 		if (got_interrupt)
 			return;
 
 		// Put the best into solution
 		best_id = get_best_id(capacity);
-		cout << best_id << endl;
 		if (best_id == -1)
 			return;
 
 		capacity -= s_g[best_id];
 		max_partial += v_g[best_id];
 		itensMochila_array_partial[best_id] = 1;
-		update_values(best_id);
-		for (int i = 0; i < quantItens_g; i++)
-			cout << v_g[i] << "|";
-		cout << endl;
+
+		// update v[j] for all j outside of the solution with relation[best_id][j] value
+        for (j=0; j < quantItens_g; j++)
+            if (!itensMochila_array_partial[j])
+                v_g[j] += relation_array[best_id][j];
 	}
 }
 
@@ -173,9 +158,6 @@ int algH(int capacity, int quantItens, vector<int> s, vector<int> v, matriz &rel
     for (int i = 0; i < quantItens; i++) {
         relation_array[i] = &relation[i][0];
     }
-	for (int i = 0; i < quantItens; i++)
-		cout << v_g[i] << "|";
-	cout << endl;
 
     got_interrupt = false;
     signal(SIGALRM, alarm_handler);
@@ -186,5 +168,9 @@ int algH(int capacity, int quantItens, vector<int> s, vector<int> v, matriz &rel
 	for (int j = 0; j < quantItens_g; j++) {
 		itensMochila[j] = itensMochila_array_partial[j];
 	}
+    free(itensMochila_array_partial);
+    free(relation_array);
+    
+
 	return max_partial;
 }
