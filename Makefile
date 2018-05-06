@@ -1,5 +1,6 @@
 CC=g++
-CFLAGS=-I. -lstdc++ -g
+#utilize aqui o path completo para a pasta do gurobi em seu pc
+CFLAGS=-I /opt/gurobi752/linux64/include/ -L /opt/gurobi752/linux64/lib/ -lgurobi_c++ -lgurobi75 -lm -lstdc++
 DEPS = pmr.h
 OBJ = pmr.o pmr_e_h.o 
 

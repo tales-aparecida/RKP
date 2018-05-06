@@ -1,0 +1,8 @@
+Siga as instruções do arquivo INSTALL_GUROBI em 
+http://www.ic.unicamp.br/~fkm/codes/connectivity.tgz
+
+Por enquanto neste lab usaremos apenas o GUROBI, mas você já pode ir seguindo os passos
+do arquivo README e instalar o lemon também, pois ele será usado em algum lab futuro.
+
+Também há exemplos de uso do GUROBI e do LEMON em connectivity. Você também poderá usar
+o próprio Makefile do prof. Flávio, modificando o mesmo quando necessário.

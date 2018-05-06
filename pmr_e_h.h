@@ -14,6 +14,7 @@
 
 #include "pmr.h"
 
+int algExato(int capacity, int quantItens, vector<int> s, vector<int> v, matriz & relation, vector<int>& itensMochila, int maxTime);
 int algE(int capacity, int quantItens, vector<int> s, vector<int> v, matriz & relation, vector<int>& itensMochila, int maxTime);
 int algH(int capacity, int quantItens, vector<int> s, vector<int> v, matriz &relation, vector<int>& itensMochila, int maxTime);
 

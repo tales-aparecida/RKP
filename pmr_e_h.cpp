@@ -10,9 +10,12 @@
  * DIGITE SEU RA: 177312
  * SUBMETA SOMENTE ESTE ARQUIVO
  ******************************************************************************/
+ #include <iostream>
+ #include <float.h>
 #include "pmr_e_h.h"
 #include <signal.h>
 #include <unistd.h>
+#include "gurobi_c++.h"
 //typedef vector<vector<double> > matriz;
 
 volatile sig_atomic_t got_interrupt = 0;
@@ -173,4 +176,13 @@ int algH(int capacity, int quantItens, vector<int> s, vector<int> v, matriz &rel
     
 
 	return max_partial;
+}
+
+int algExato(int capacity, int quantItens, vector<int> s, vector<int> v, matriz &relation, vector<int>& itensMochila, int maxTime)
+/*******************************************************************************
+ * SUBSTITUIA O CONTEÚDO DESTE MÉTODO POR SUA IMPLEMENTAÇÃO EXATA USANDO O GUROBI.
+ * ENTRETANTO, NÃO ALTERE A ASSINATURA DO MÉTODO.
+ ******************************************************************************/
+{
+	return 0;
 }

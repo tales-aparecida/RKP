@@ -2,7 +2,7 @@
  * MC658 - Projeto e Análise de Algoritmos III - 1s2018
  * Prof: Flavio Keidi Miyazawa
  * PED: Francisco Jhonatas Melo da Silva
- * Usa ideias e código de Mauro Mulati e Flávio Keidi Miyazawa 
+ * Usa ideias e código de Mauro Mulati e Flávio Keidi Miyazawa
  ******************************************************************************/
 
 /*******************************************************************************
@@ -11,7 +11,6 @@
 
 #include "pmr.h"
 #include "pmr_e_h.h"
-#include <signal.h>
 #include<fstream>
 
 //------------------------------------------------------------------------------
@@ -23,7 +22,7 @@ int main(int argc, char *argv[])
    bool verbose   = false;
    string inputFile_name;   // Input test file
    string outputFile_name;  // Output sol file
-	
+
 	// Reading program arguments
    for(int i = 1; i < argc; i++){
       const string arg(argv[i]);
@@ -34,7 +33,7 @@ int main(int argc, char *argv[])
       else{
          next = string("");
 		}
-		
+
       if( exec != 0 && (arg.find("-k") == 0 || arg.find("-a") == 0 ) ){
          cout << "Erro ao ler parametro \"" << arg << "\", somente pode haver um parametro de modo de execucao." << endl;
          showUsage();
@@ -45,6 +44,9 @@ int main(int argc, char *argv[])
       }
       else if( arg.find("-h") == 0 ){
          exec = 2;
+      }
+      else if( arg.find("-g") == 0 ){
+         exec = 3;
       }
       else if( arg.find("-v") == 0 ){
         verbose = true;
@@ -66,16 +68,16 @@ int main(int argc, char *argv[])
    }
 
    // Required parameters
-   if( exec == 0 || exec > 2){
+   if( exec == 0 || exec > 3){
       cout << "Nenhum modo de execucao selecionado dentre: -e ou -h" << endl;
-      showUsage(); 
+      showUsage();
 		exit(1);
    }
-   
+
    if( inputFile_name.size() < 1 ){
-      cout << ((inputFile_name.size() < 1)? "nome do arq, ":"") 
+      cout << ((inputFile_name.size() < 1)? "nome do arq, ":"")
 			  << endl;
-      showUsage(); 
+      showUsage();
 		exit(1);
    }
 
@@ -85,24 +87,24 @@ int main(int argc, char *argv[])
 
 	// int seed=1;     // mhmulati
 	// srand48(seed);  // mhmulati
-	
+
 	// Variables that represent the input of the problem
-	int capacity = 0;
-	int quantItens = 0;
+	int capacity;
+	int quantItens;
 	vector<int> s;	//sizes
-    	vector<int> v;	//values	
+    	vector<int> v;	//values
 	matriz relation;
 
 	read_input(inputFile_name, &capacity, &quantItens, s, v, relation);
-	
+
 	vector<int> itensMochila(quantItens);
-	
-	// show_input(capacity, quantItens, s, v, relation, exec);
-	
+
+	show_input(capacity, quantItens, s, v, relation, exec);
+
    double elapsed_time = numeric_limits<double>::max();
    clock_t before = clock();
    int OptimalSolution = 0;
-	
+
 	switch(exec){
 		case 1:{
 			OptimalSolution = algE(capacity, quantItens, s, v, relation, itensMochila, maxTime);
@@ -112,17 +114,21 @@ int main(int argc, char *argv[])
 			OptimalSolution = algH(capacity, quantItens, s, v, relation, itensMochila, maxTime);
 			break;
 		}
+		case 3:{
+			OptimalSolution = algExato(capacity, quantItens, s, v, relation, itensMochila, maxTime);
+			break;
+		}
 	}
-	
+
 	cout << "valor encontrado: "<< OptimalSolution << endl;
-   	clock_t after = clock();
-   	elapsed_time = (double) (after-before) / CLOCKS_PER_SEC;
+   clock_t after = clock();
+   elapsed_time = (double) (after-before) / CLOCKS_PER_SEC;
     cout << elapsed_time << endl;
-    
+
 	// Verificar se é de fato uma solução para a instância
 	if( !is_feasible_solution(OptimalSolution, itensMochila, capacity, quantItens, s, v, relation))
 	    cout << "Infeasible solution" << endl;
-	
+
 	return 0;
 }
 
@@ -142,10 +148,10 @@ void read_input(string input_file, int* C, int* quantItens, vector<int>& s, vect
 	for(i=0; i< quantItens[0]; i++){
 	    relation[i].resize(quantItens[0]);
 	    for(j=0; j<quantItens[0];j++){
-	        kinput >> relation[i][j];  
+	        kinput >> relation[i][j];
 	    }
 	}
-	
+
 }
 
 
@@ -164,7 +170,7 @@ void show_input(int C, int n, vector<int> s, vector<int> v, matriz &relation, in
 	cout << n << " " << C << endl;
 	for(i=0; i<n; i++)
 		cout<<s[i]<<" "<<v[i]<<endl;
-	
+
 	for(i=0; i<n; i++){
 	    for(j=0; j<n; j++){
 	        cout << relation[i][j] <<  " ";
@@ -172,7 +178,7 @@ void show_input(int C, int n, vector<int> s, vector<int> v, matriz &relation, in
 	    cout << endl;
 	}
 	cout << "Using " << (exec==1?"exato":"heuristica") << endl;
-	
+
 }
 
 // returns true if sol is feasible
@@ -180,9 +186,9 @@ bool is_feasible_solution(int valueOpt, vector<int> itensMochila, int C, int n, 
 	//set<int> nc;
 	int weight = 0;
 	int val = 0;
-	
+
 	for(int i=0; i<n; i++){
-		if ( itensMochila[i] == 1){ 
+		if ( itensMochila[i] == 1){
 		    weight += s[i];
 		    val += v[i];
 		    for(int j=i; j<n; j++){
@@ -191,9 +197,9 @@ bool is_feasible_solution(int valueOpt, vector<int> itensMochila, int C, int n, 
 		        }
 		    }
 		}
-		
+
 	}
-	
+
 	if ( (weight > C) || (val != valueOpt)){
 		cout << weight << " " << val << endl;
 		return false;
