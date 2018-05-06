@@ -168,7 +168,7 @@ int algExato(int capacity, int quantItens, vector<int> s, vector<int> v, matriz 
     double total_value, total_size;
 
     double valor_h = algH(capacity, quantItens, s, v, relation, itensMochila, maxTime);
-    cout << valor_h;
+    cout << valor_h << endl;
     for (int i=0 ; i<quantItens ; i++)
         itensMochila[i] = 0;
 
