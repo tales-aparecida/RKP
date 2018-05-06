@@ -19,9 +19,8 @@
 //typedef vector<vector<double> > matriz;
 
 volatile sig_atomic_t got_interrupt = 0;
-static void alarm_handler(int sig)
-{
-	got_interrupt = 1;
+static void alarm_handler(int sig) {
+    got_interrupt = 1;
 }
 
 int quantItens_g;
@@ -34,18 +33,7 @@ int* itensMochila_array_partial_id;
 int itensMochila_array_partial_count = 0;
 int max_partial = 0;
 
-/* Parâmetros das funções
-	capacity 		capacidade da mochila
-	quantItens		N itens
-	relation[i][j] 	valor de relações
-	v[i] 			valor do item
-	s[i] 			peso do item
-	itensMochila[] 	resposta
-	maxTime 		timeout em segundos
-*/
-
-void algE_rec(int i, int capacity, int partial_val)
-{
+void algE_rec(int i, int capacity, int partial_val) {
     int id;
     if (i == quantItens_g || capacity == 0 || got_interrupt)
         return;
@@ -82,6 +70,46 @@ void algE_rec(int i, int capacity, int partial_val)
     }
 }
 
+// get the id for the biggest v[id] that fits
+int get_best_id(int capacity) {
+    double curr_v, max_v = 0;
+    int max_v_i = -1;
+    for (int i = 0; i < quantItens_g; i++) {
+        // skip if already in solution
+        if (itensMochila_array_partial[i])
+            continue;
+
+        curr_v = (double)v_g[i] / s_g[i];
+        if (s_g[i] <= capacity && curr_v > max_v) {
+            max_v = curr_v;
+            max_v_i = i;
+        }
+    }
+    return max_v_i;
+}
+
+void algH_array(int &capacity) {
+    int best_id, j;
+    while (capacity) {
+        if (got_interrupt)
+            return;
+
+        // Put the best into solution
+        best_id = get_best_id(capacity);
+        if (best_id == -1)
+            return;
+
+        capacity -= s_g[best_id];
+        max_partial += v_g[best_id];
+        itensMochila_array_partial[best_id] = 1;
+
+        // update v[j] for all j outside of the solution with relation[best_id][j] value
+        for (j=0; j < quantItens_g; j++)
+            if (!itensMochila_array_partial[j])
+                v_g[j] += relation_array[best_id][j];
+    }
+}
+
 int algE(int capacity, int quantItens, vector<int> s, vector<int> v, matriz &relation, vector<int>& itensMochila, int maxTime) {
     got_interrupt = false;
     signal(SIGALRM, alarm_handler);
@@ -111,50 +139,9 @@ int algE(int capacity, int quantItens, vector<int> s, vector<int> v, matriz &rel
     return max_partial;
 }
 
-// get the id for the biggest v[id] that fits
-int get_best_id(int capacity) {
-	double curr_v, max_v = 0;
-	int max_v_i = -1;
-	for	(int i = 0; i < quantItens_g; i++) {
-		// skip if already in solution
-		if (itensMochila_array_partial[i])
-			continue;
-
-        curr_v = (double)v_g[i] / s_g[i];
-        if (s_g[i] <= capacity && curr_v > max_v) {
-            max_v = curr_v;
-            max_v_i = i;
-        }		
-	}
-
-	return max_v_i;
-}
-
-void algH_array(int &capacity) {
-	int best_id, j;
-	while (capacity) {
-		if (got_interrupt)
-			return;
-
-		// Put the best into solution
-		best_id = get_best_id(capacity);
-		if (best_id == -1)
-			return;
-
-		capacity -= s_g[best_id];
-		max_partial += v_g[best_id];
-		itensMochila_array_partial[best_id] = 1;
-
-		// update v[j] for all j outside of the solution with relation[best_id][j] value
-        for (j=0; j < quantItens_g; j++)
-            if (!itensMochila_array_partial[j])
-                v_g[j] += relation_array[best_id][j];
-	}
-}
-
 int algH(int capacity, int quantItens, vector<int> s, vector<int> v, matriz &relation, vector<int>& itensMochila, int maxTime) {
     quantItens_g = quantItens;
-	s_g = &s[0];
+    s_g = &s[0];
     v_g = &v[0];
     itensMochila_array_partial = (int*)calloc(quantItens, sizeof(int));
     relation_array = (double**)malloc(quantItens * sizeof(double*));
@@ -166,23 +153,23 @@ int algH(int capacity, int quantItens, vector<int> s, vector<int> v, matriz &rel
     signal(SIGALRM, alarm_handler);
     alarm(maxTime);
 
-	algH_array(capacity);
+    algH_array(capacity);
 
-	for (int j = 0; j < quantItens_g; j++) {
-		itensMochila[j] = itensMochila_array_partial[j];
-	}
+    for (int j = 0; j < quantItens_g; j++) {
+        itensMochila[j] = itensMochila_array_partial[j];
+    }
     free(itensMochila_array_partial);
     free(relation_array);
-    
 
-	return max_partial;
+    return max_partial;
 }
 
-int algExato(int capacity, int quantItens, vector<int> s, vector<int> v, matriz &relation, vector<int>& itensMochila, int maxTime)
-/*******************************************************************************
- * SUBSTITUIA O CONTEÚDO DESTE MÉTODO POR SUA IMPLEMENTAÇÃO EXATA USANDO O GUROBI.
- * ENTRETANTO, NÃO ALTERE A ASSINATURA DO MÉTODO.
- ******************************************************************************/
-{
-	return 0;
+int algExato(int capacity, int quantItens, vector<int> s, vector<int> v, matriz &relation, vector<int>& itensMochila, int maxTime) {
+    got_interrupt = false;
+    signal(SIGALRM, alarm_handler);
+    alarm(maxTime);
+
+
+    
+    return 0;
 }
