@@ -187,8 +187,8 @@ int algExato(int capacity, int quantItens, vector<int> s, vector<int> v, matriz 
         for (int i=0 ; i<quantItens ; i++) {
             for (int j=0 ; j<quantItens ; j++) {
                 y[i].push_back(model.addVar(0.0, 1.0, relation[i][j], GRB_BINARY, ""));
-                model.addConstr(x[i]+x[i] <= y[i][j]+1);
-                model.addConstr(x[i]+x[i] >= 2*y[i][j]);
+                model.addConstr(x[i]+x[j] <= y[i][j]+1);
+                model.addConstr(x[i]+x[j] >= 2*y[i][j]);
             }
         }
         model.update(); // run update to use model inserted variables
