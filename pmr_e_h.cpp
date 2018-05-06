@@ -165,11 +165,60 @@ int algH(int capacity, int quantItens, vector<int> s, vector<int> v, matriz &rel
 }
 
 int algExato(int capacity, int quantItens, vector<int> s, vector<int> v, matriz &relation, vector<int>& itensMochila, int maxTime) {
-    got_interrupt = false;
-    signal(SIGALRM, alarm_handler);
-    alarm(maxTime);
+    double total_value, total_size;
 
+    double valor_h = algH(capacity, quantItens, s, v, relation, itensMochila, maxTime);
+    cout << valor_h;
+    for (int i=0 ; i<quantItens ; i++)
+        itensMochila[i] = 0;
 
-    
-    return 0;
+    try {
+        vector<GRBVar> x(quantItens);
+        vector< vector<GRBVar> > y(quantItens);
+        GRBEnv env = GRBEnv();
+        GRBModel model = GRBModel(env);
+        GRBLinExpr expr;
+        model.set(GRB_StringAttr_ModelName, "Relational Knapsack Problem"); // gives a name to the problem
+        model.set(GRB_IntAttr_ModelSense, GRB_MAXIMIZE); // says that lp is a maximization problem
+        for (int i=0 ; i<quantItens ; i++) {
+            x[i] = model.addVar(0.0, 1.0, v[i], GRB_BINARY, "");
+            expr += s[i]*x[i];
+        }
+        for (int i=0 ; i<quantItens ; i++) {
+            for (int j=0 ; j<quantItens ; j++) {
+                y[i].push_back(model.addVar(0.0, 1.0, relation[i][j], GRB_BINARY, ""));
+                model.addConstr(x[i]+x[i] <= y[i][j]+1);
+                model.addConstr(x[i]+x[i] >= 2*y[i][j]);
+            }
+        }
+        model.update(); // run update to use model inserted variables
+        model.addConstr(expr <= capacity);
+        model.update(); // Process any pending model modifications.
+
+        // bound the execution time
+        model.getEnv().set(GRB_DoubleParam_TimeLimit, maxTime);
+        model.getEnv().set(GRB_DoubleParam_Cutoff, valor_h);
+        model.update(); // Process any pending model modifications.
+        model.optimize();
+        total_value = 0.0;
+        total_size = 0.0;
+
+        for (int i=0 ; i<quantItens ; i++) {
+            if (x[i].get(GRB_DoubleAttr_X) > 0.999) {
+                total_value += v[i];
+                itensMochila[i] = 1;
+            }
+        }
+        for (int i=0 ; i<quantItens ; i++)
+            for (int j=i ; j<quantItens ; j++)
+                if (x[i].get(GRB_DoubleAttr_X) > 0.999 && x[j].get(GRB_DoubleAttr_X) > 0.999)
+                    total_value += relation[i][j];
+        return total_value;
+    } catch(GRBException e) {
+        cout << "Error code = " << e.getErrorCode() << endl;
+        cout << e.getMessage() << endl;
+    } catch (...) {
+        printf("Exception...\n");
+        exit(1);
+    }
 }
