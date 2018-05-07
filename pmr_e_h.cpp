@@ -167,9 +167,9 @@ int algH(int capacity, int quantItens, vector<int> s, vector<int> v, matriz &rel
 
 int algExato(int capacity, int quantItens, vector<int> s, vector<int> v, matriz &relation, vector<int>& itensMochila, int maxTime) {
     int verbose = true;
-    bool with_heuristic = true;
-    double grb_heuristics_time = 0.00;
-    int presolve = 2;
+    bool with_heuristic = false;
+    double grb_heuristics_time = 0.05;
+    int presolve = 0;
 
     for (int i=0 ; i<quantItens ; i++)
         itensMochila[i] = 0;

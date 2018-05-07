@@ -7,7 +7,7 @@ OBJ = pmr.o pmr_e_h.o
 %.o: %.cpp $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
 
-pmr_h_000_presolve_2: $(OBJ)
+pmr_noh_005_presolve_0: $(OBJ)
 	gcc -o $@ $^ $(CFLAGS)
 
 #OBJECTS=knapsack.o knapsack_bt_bnb.o

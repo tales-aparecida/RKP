@@ -84,7 +84,7 @@ int main(int argc, char *argv[])
    	}
 
 
-	double avg_time = 0, run_count=5.0;
+	double avg_time = 0, run_count=1.0;
 	int OptimalSolution = 0;
 	for (int i=0; i < run_count; i++) {
 		// Variables that represent the input of the problem

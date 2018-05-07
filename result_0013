@@ -1,4 +1,4 @@
-Com Heuristica e 0.05 de heuristics presolve 1
+Com Heuristica e 0.00 de heuristics presolve 1
 01
 Academic license - for non-commercial use only
 Optimize a model with 91 rows, 55 columns and 280 nonzeros
@@ -31,7 +31,7 @@ Cutting planes:
 Explored 1 nodes (36 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 193 192 
+Solution count 2: 193 192
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -66,7 +66,7 @@ Cutting planes:
 Explored 1 nodes (36 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 193 192 
+Solution count 2: 193 192
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -101,7 +101,7 @@ Cutting planes:
 Explored 1 nodes (36 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 193 192 
+Solution count 2: 193 192
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -136,7 +136,7 @@ Cutting planes:
 Explored 1 nodes (36 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 193 192 
+Solution count 2: 193 192
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -171,7 +171,7 @@ Cutting planes:
 Explored 1 nodes (36 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 193 192 
+Solution count 2: 193 192
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -195,7 +195,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 330 
+Solution count 1: 330
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -217,7 +217,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 330 
+Solution count 1: 330
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -239,7 +239,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 330 
+Solution count 1: 330
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -261,7 +261,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 330 
+Solution count 1: 330
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -283,7 +283,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 330 
+Solution count 1: 330
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -307,7 +307,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 260 
+Solution count 1: 260
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -329,7 +329,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 260 
+Solution count 1: 260
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -351,7 +351,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 260 
+Solution count 1: 260
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -373,7 +373,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 260 
+Solution count 1: 260
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -395,7 +395,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 260 
+Solution count 1: 260
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -432,7 +432,7 @@ Cutting planes:
 Explored 1 nodes (46 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 549 
+Solution count 1: 549
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -467,7 +467,7 @@ Cutting planes:
 Explored 1 nodes (46 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 549 
+Solution count 1: 549
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -502,7 +502,7 @@ Cutting planes:
 Explored 1 nodes (46 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 549 
+Solution count 1: 549
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -537,7 +537,7 @@ Cutting planes:
 Explored 1 nodes (46 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 549 
+Solution count 1: 549
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -572,7 +572,7 @@ Cutting planes:
 Explored 1 nodes (46 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 549 
+Solution count 1: 549
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -596,7 +596,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 337 
+Solution count 1: 337
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -618,7 +618,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 337 
+Solution count 1: 337
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -640,7 +640,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 337 
+Solution count 1: 337
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -662,7 +662,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 337 
+Solution count 1: 337
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -684,7 +684,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 337 
+Solution count 1: 337
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -723,7 +723,7 @@ Cutting planes:
 Explored 1 nodes (56 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 893 858 
+Solution count 2: 893 858
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -760,7 +760,7 @@ Cutting planes:
 Explored 1 nodes (56 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 893 858 
+Solution count 2: 893 858
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -797,7 +797,7 @@ Cutting planes:
 Explored 1 nodes (56 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 893 858 
+Solution count 2: 893 858
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -834,7 +834,7 @@ Cutting planes:
 Explored 1 nodes (56 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 893 858 
+Solution count 2: 893 858
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -871,7 +871,7 @@ Cutting planes:
 Explored 1 nodes (56 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 893 858 
+Solution count 2: 893 858
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -903,7 +903,7 @@ Root relaxation: objective 8.061667e+02, 10 iterations, 0.00 seconds
 Explored 0 nodes (12 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 787 
+Solution count 1: 787
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -933,7 +933,7 @@ Root relaxation: objective 8.061667e+02, 10 iterations, 0.00 seconds
 Explored 0 nodes (12 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 787 
+Solution count 1: 787
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -963,7 +963,7 @@ Root relaxation: objective 8.061667e+02, 10 iterations, 0.00 seconds
 Explored 0 nodes (12 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 787 
+Solution count 1: 787
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -993,7 +993,7 @@ Root relaxation: objective 8.061667e+02, 10 iterations, 0.00 seconds
 Explored 0 nodes (12 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 787 
+Solution count 1: 787
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -1023,7 +1023,7 @@ Root relaxation: objective 8.061667e+02, 10 iterations, 0.00 seconds
 Explored 0 nodes (12 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 787 
+Solution count 1: 787
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -1063,7 +1063,7 @@ Cutting planes:
 Explored 1 nodes (354 simplex iterations) in 0.13 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 2044 1842 
+Solution count 2: 2044 1842
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.044000000000e+03, best bound 2.044000000000e+03, gap 0.0000%
@@ -1101,7 +1101,7 @@ Cutting planes:
 Explored 1 nodes (354 simplex iterations) in 0.13 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 2044 1842 
+Solution count 2: 2044 1842
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.044000000000e+03, best bound 2.044000000000e+03, gap 0.0000%
@@ -1139,7 +1139,7 @@ Cutting planes:
 Explored 1 nodes (354 simplex iterations) in 0.13 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 2044 1842 
+Solution count 2: 2044 1842
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.044000000000e+03, best bound 2.044000000000e+03, gap 0.0000%
@@ -1177,7 +1177,7 @@ Cutting planes:
 Explored 1 nodes (354 simplex iterations) in 0.13 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 2044 1842 
+Solution count 2: 2044 1842
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.044000000000e+03, best bound 2.044000000000e+03, gap 0.0000%
@@ -1215,7 +1215,7 @@ Cutting planes:
 Explored 1 nodes (354 simplex iterations) in 0.13 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 2044 1842 
+Solution count 2: 2044 1842
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.044000000000e+03, best bound 2.044000000000e+03, gap 0.0000%
@@ -1255,7 +1255,7 @@ Cutting planes:
 Explored 1 nodes (287 simplex iterations) in 0.15 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 1875 1829 
+Solution count 2: 1875 1829
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.875000000000e+03, best bound 1.875000000000e+03, gap 0.0000%
@@ -1293,7 +1293,7 @@ Cutting planes:
 Explored 1 nodes (287 simplex iterations) in 0.14 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 1875 1829 
+Solution count 2: 1875 1829
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.875000000000e+03, best bound 1.875000000000e+03, gap 0.0000%
@@ -1331,7 +1331,7 @@ Cutting planes:
 Explored 1 nodes (287 simplex iterations) in 0.14 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 1875 1829 
+Solution count 2: 1875 1829
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.875000000000e+03, best bound 1.875000000000e+03, gap 0.0000%
@@ -1369,7 +1369,7 @@ Cutting planes:
 Explored 1 nodes (287 simplex iterations) in 0.14 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 1875 1829 
+Solution count 2: 1875 1829
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.875000000000e+03, best bound 1.875000000000e+03, gap 0.0000%
@@ -1407,7 +1407,7 @@ Cutting planes:
 Explored 1 nodes (287 simplex iterations) in 0.14 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 1875 1829 
+Solution count 2: 1875 1829
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.875000000000e+03, best bound 1.875000000000e+03, gap 0.0000%
@@ -1451,7 +1451,7 @@ Cutting planes:
 Explored 1 nodes (651 simplex iterations) in 0.28 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 1773 1674 
+Solution count 2: 1773 1674
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -1493,7 +1493,7 @@ Cutting planes:
 Explored 1 nodes (651 simplex iterations) in 0.28 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 1773 1674 
+Solution count 2: 1773 1674
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -1535,7 +1535,7 @@ Cutting planes:
 Explored 1 nodes (651 simplex iterations) in 0.28 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 1773 1674 
+Solution count 2: 1773 1674
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -1577,7 +1577,7 @@ Cutting planes:
 Explored 1 nodes (651 simplex iterations) in 0.28 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 1773 1674 
+Solution count 2: 1773 1674
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -1619,7 +1619,7 @@ Cutting planes:
 Explored 1 nodes (651 simplex iterations) in 0.28 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 1773 1674 
+Solution count 2: 1773 1674
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -1656,7 +1656,7 @@ Cutting planes:
 Explored 1 nodes (589 simplex iterations) in 0.26 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 3398 
+Solution count 1: 3398
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -1691,7 +1691,7 @@ Cutting planes:
 Explored 1 nodes (589 simplex iterations) in 0.26 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 3398 
+Solution count 1: 3398
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -1726,7 +1726,7 @@ Cutting planes:
 Explored 1 nodes (589 simplex iterations) in 0.26 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 3398 
+Solution count 1: 3398
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -1761,7 +1761,7 @@ Cutting planes:
 Explored 1 nodes (589 simplex iterations) in 0.26 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 3398 
+Solution count 1: 3398
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -1796,7 +1796,7 @@ Cutting planes:
 Explored 1 nodes (589 simplex iterations) in 0.26 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 3398 
+Solution count 1: 3398
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -1847,7 +1847,7 @@ Cutting planes:
 Explored 1 nodes (3187 simplex iterations) in 2.60 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 7736 7460 
+Solution count 2: 7736 7460
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.736000000000e+03, best bound 7.736000000000e+03, gap 0.0000%
@@ -1896,7 +1896,7 @@ Cutting planes:
 Explored 1 nodes (3187 simplex iterations) in 2.63 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 7736 7460 
+Solution count 2: 7736 7460
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.736000000000e+03, best bound 7.736000000000e+03, gap 0.0000%
@@ -1945,7 +1945,7 @@ Cutting planes:
 Explored 1 nodes (3187 simplex iterations) in 2.62 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 7736 7460 
+Solution count 2: 7736 7460
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.736000000000e+03, best bound 7.736000000000e+03, gap 0.0000%
@@ -1994,7 +1994,7 @@ Cutting planes:
 Explored 1 nodes (3187 simplex iterations) in 2.65 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 7736 7460 
+Solution count 2: 7736 7460
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.736000000000e+03, best bound 7.736000000000e+03, gap 0.0000%
@@ -2043,7 +2043,7 @@ Cutting planes:
 Explored 1 nodes (3187 simplex iterations) in 2.64 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 7736 7460 
+Solution count 2: 7736 7460
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.736000000000e+03, best bound 7.736000000000e+03, gap 0.0000%
@@ -2105,7 +2105,7 @@ Cutting planes:
 Explored 1 nodes (9472 simplex iterations) in 27.85 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 22929 22524 
+Solution count 2: 22929 22524
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.292900000000e+04, best bound 2.292900000000e+04, gap 0.0000%
@@ -2165,7 +2165,7 @@ Cutting planes:
 Explored 1 nodes (9472 simplex iterations) in 27.57 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 22929 22524 
+Solution count 2: 22929 22524
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.292900000000e+04, best bound 2.292900000000e+04, gap 0.0000%
@@ -2224,7 +2224,7 @@ Cutting planes:
 Explored 1 nodes (9472 simplex iterations) in 27.08 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 22929 22524 
+Solution count 2: 22929 22524
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.292900000000e+04, best bound 2.292900000000e+04, gap 0.0000%
@@ -2284,7 +2284,7 @@ Cutting planes:
 Explored 1 nodes (9472 simplex iterations) in 27.46 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 22929 22524 
+Solution count 2: 22929 22524
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.292900000000e+04, best bound 2.292900000000e+04, gap 0.0000%
@@ -2344,7 +2344,7 @@ Cutting planes:
 Explored 1 nodes (9472 simplex iterations) in 27.95 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 22929 22524 
+Solution count 2: 22929 22524
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.292900000000e+04, best bound 2.292900000000e+04, gap 0.0000%
@@ -2383,7 +2383,7 @@ Cutting planes:
 Explored 1 nodes (34 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 193 192 
+Solution count 2: 193 192
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -2419,7 +2419,7 @@ Cutting planes:
 Explored 1 nodes (34 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 193 192 
+Solution count 2: 193 192
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -2455,7 +2455,7 @@ Cutting planes:
 Explored 1 nodes (34 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 193 192 
+Solution count 2: 193 192
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -2491,7 +2491,7 @@ Cutting planes:
 Explored 1 nodes (34 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 193 192 
+Solution count 2: 193 192
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -2527,7 +2527,7 @@ Cutting planes:
 Explored 1 nodes (34 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 193 192 
+Solution count 2: 193 192
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -2551,7 +2551,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 330 
+Solution count 1: 330
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -2573,7 +2573,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 330 
+Solution count 1: 330
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -2595,7 +2595,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 330 
+Solution count 1: 330
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -2617,7 +2617,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 330 
+Solution count 1: 330
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -2639,7 +2639,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 330 
+Solution count 1: 330
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -2663,7 +2663,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 260 
+Solution count 1: 260
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -2685,7 +2685,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 260 
+Solution count 1: 260
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -2707,7 +2707,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 260 
+Solution count 1: 260
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -2729,7 +2729,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 260 
+Solution count 1: 260
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -2751,7 +2751,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 260 
+Solution count 1: 260
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -2788,7 +2788,7 @@ Cutting planes:
 Explored 1 nodes (46 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 549 
+Solution count 1: 549
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -2823,7 +2823,7 @@ Cutting planes:
 Explored 1 nodes (46 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 549 
+Solution count 1: 549
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -2858,7 +2858,7 @@ Cutting planes:
 Explored 1 nodes (46 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 549 
+Solution count 1: 549
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -2893,7 +2893,7 @@ Cutting planes:
 Explored 1 nodes (46 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 549 
+Solution count 1: 549
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -2928,7 +2928,7 @@ Cutting planes:
 Explored 1 nodes (46 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 549 
+Solution count 1: 549
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -2952,7 +2952,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 337 
+Solution count 1: 337
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -2974,7 +2974,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 337 
+Solution count 1: 337
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -2996,7 +2996,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 337 
+Solution count 1: 337
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -3018,7 +3018,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 337 
+Solution count 1: 337
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -3040,7 +3040,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 337 
+Solution count 1: 337
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -3079,7 +3079,7 @@ Cutting planes:
 Explored 1 nodes (55 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 893 858 
+Solution count 2: 893 858
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -3116,7 +3116,7 @@ Cutting planes:
 Explored 1 nodes (55 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 893 858 
+Solution count 2: 893 858
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -3153,7 +3153,7 @@ Cutting planes:
 Explored 1 nodes (55 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 893 858 
+Solution count 2: 893 858
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -3190,7 +3190,7 @@ Cutting planes:
 Explored 1 nodes (55 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 893 858 
+Solution count 2: 893 858
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -3227,7 +3227,7 @@ Cutting planes:
 Explored 1 nodes (55 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 893 858 
+Solution count 2: 893 858
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -3259,7 +3259,7 @@ Root relaxation: objective 8.061667e+02, 10 iterations, 0.00 seconds
 Explored 0 nodes (12 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 787 
+Solution count 1: 787
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -3289,7 +3289,7 @@ Root relaxation: objective 8.061667e+02, 10 iterations, 0.00 seconds
 Explored 0 nodes (12 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 787 
+Solution count 1: 787
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -3319,7 +3319,7 @@ Root relaxation: objective 8.061667e+02, 10 iterations, 0.00 seconds
 Explored 0 nodes (12 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 787 
+Solution count 1: 787
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -3349,7 +3349,7 @@ Root relaxation: objective 8.061667e+02, 10 iterations, 0.00 seconds
 Explored 0 nodes (12 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 787 
+Solution count 1: 787
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -3379,7 +3379,7 @@ Root relaxation: objective 8.061667e+02, 10 iterations, 0.00 seconds
 Explored 0 nodes (12 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 787 
+Solution count 1: 787
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -3422,7 +3422,7 @@ Cutting planes:
 Explored 1 nodes (373 simplex iterations) in 0.14 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 2044 1945 1842 
+Solution count 3: 2044 1945 1842
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.044000000000e+03, best bound 2.044000000000e+03, gap 0.0000%
@@ -3463,7 +3463,7 @@ Cutting planes:
 Explored 1 nodes (373 simplex iterations) in 0.07 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 2044 1945 1842 
+Solution count 3: 2044 1945 1842
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.044000000000e+03, best bound 2.044000000000e+03, gap 0.0000%
@@ -3504,7 +3504,7 @@ Cutting planes:
 Explored 1 nodes (373 simplex iterations) in 0.14 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 2044 1945 1842 
+Solution count 3: 2044 1945 1842
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.044000000000e+03, best bound 2.044000000000e+03, gap 0.0000%
@@ -3545,7 +3545,7 @@ Cutting planes:
 Explored 1 nodes (373 simplex iterations) in 0.14 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 2044 1945 1842 
+Solution count 3: 2044 1945 1842
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.044000000000e+03, best bound 2.044000000000e+03, gap 0.0000%
@@ -3586,7 +3586,7 @@ Cutting planes:
 Explored 1 nodes (373 simplex iterations) in 0.14 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 2044 1945 1842 
+Solution count 3: 2044 1945 1842
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.044000000000e+03, best bound 2.044000000000e+03, gap 0.0000%
@@ -3625,7 +3625,7 @@ Cutting planes:
 Explored 1 nodes (288 simplex iterations) in 0.14 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 1875 1829 
+Solution count 2: 1875 1829
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.875000000000e+03, best bound 1.875000000000e+03, gap 0.0000%
@@ -3662,7 +3662,7 @@ Cutting planes:
 Explored 1 nodes (288 simplex iterations) in 0.14 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 1875 1829 
+Solution count 2: 1875 1829
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.875000000000e+03, best bound 1.875000000000e+03, gap 0.0000%
@@ -3699,7 +3699,7 @@ Cutting planes:
 Explored 1 nodes (288 simplex iterations) in 0.14 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 1875 1829 
+Solution count 2: 1875 1829
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.875000000000e+03, best bound 1.875000000000e+03, gap 0.0000%
@@ -3736,7 +3736,7 @@ Cutting planes:
 Explored 1 nodes (288 simplex iterations) in 0.14 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 1875 1829 
+Solution count 2: 1875 1829
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.875000000000e+03, best bound 1.875000000000e+03, gap 0.0000%
@@ -3773,7 +3773,7 @@ Cutting planes:
 Explored 1 nodes (288 simplex iterations) in 0.14 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 1875 1829 
+Solution count 2: 1875 1829
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.875000000000e+03, best bound 1.875000000000e+03, gap 0.0000%
@@ -3811,7 +3811,7 @@ H    0     0                    1754.0000000 1809.65169  3.17%     -    0s
 Explored 1 nodes (609 simplex iterations) in 0.26 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 1773 1754 1749 1674 
+Solution count 4: 1773 1754 1749 1674
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -3847,7 +3847,7 @@ H    0     0                    1754.0000000 1809.65169  3.17%     -    0s
 Explored 1 nodes (609 simplex iterations) in 0.26 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 1773 1754 1749 1674 
+Solution count 4: 1773 1754 1749 1674
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -3883,7 +3883,7 @@ H    0     0                    1754.0000000 1809.65169  3.17%     -    0s
 Explored 1 nodes (609 simplex iterations) in 0.26 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 1773 1754 1749 1674 
+Solution count 4: 1773 1754 1749 1674
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -3919,7 +3919,7 @@ H    0     0                    1754.0000000 1809.65169  3.17%     -    0s
 Explored 1 nodes (609 simplex iterations) in 0.26 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 1773 1754 1749 1674 
+Solution count 4: 1773 1754 1749 1674
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -3955,7 +3955,7 @@ H    0     0                    1754.0000000 1809.65169  3.17%     -    0s
 Explored 1 nodes (609 simplex iterations) in 0.26 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 1773 1754 1749 1674 
+Solution count 4: 1773 1754 1749 1674
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -3992,7 +3992,7 @@ Cutting planes:
 Explored 1 nodes (589 simplex iterations) in 0.26 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 3398 
+Solution count 1: 3398
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -4027,7 +4027,7 @@ Cutting planes:
 Explored 1 nodes (589 simplex iterations) in 0.26 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 3398 
+Solution count 1: 3398
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -4062,7 +4062,7 @@ Cutting planes:
 Explored 1 nodes (589 simplex iterations) in 0.26 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 3398 
+Solution count 1: 3398
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -4097,7 +4097,7 @@ Cutting planes:
 Explored 1 nodes (589 simplex iterations) in 0.26 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 3398 
+Solution count 1: 3398
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -4132,7 +4132,7 @@ Cutting planes:
 Explored 1 nodes (589 simplex iterations) in 0.26 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 3398 
+Solution count 1: 3398
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -4684,7 +4684,7 @@ H    0     1                     193.0000000  198.00000  2.59%     -    0s
 Explored 1 nodes (36 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 193 192 
+Solution count 2: 193 192
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -4719,7 +4719,7 @@ H    0     1                     193.0000000  198.00000  2.59%     -    0s
 Explored 1 nodes (36 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 193 192 
+Solution count 2: 193 192
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -4754,7 +4754,7 @@ H    0     1                     193.0000000  198.00000  2.59%     -    0s
 Explored 1 nodes (36 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 193 192 
+Solution count 2: 193 192
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -4789,7 +4789,7 @@ H    0     1                     193.0000000  198.00000  2.59%     -    0s
 Explored 1 nodes (36 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 193 192 
+Solution count 2: 193 192
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -4824,7 +4824,7 @@ H    0     1                     193.0000000  198.00000  2.59%     -    0s
 Explored 1 nodes (36 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 193 192 
+Solution count 2: 193 192
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -4848,7 +4848,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 330 
+Solution count 1: 330
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -4870,7 +4870,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 330 
+Solution count 1: 330
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -4892,7 +4892,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 330 
+Solution count 1: 330
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -4914,7 +4914,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 330 
+Solution count 1: 330
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -4936,7 +4936,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 330 
+Solution count 1: 330
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -4960,7 +4960,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 260 
+Solution count 1: 260
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -4982,7 +4982,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 260 
+Solution count 1: 260
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -5004,7 +5004,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 260 
+Solution count 1: 260
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -5026,7 +5026,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 260 
+Solution count 1: 260
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -5048,7 +5048,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 260 
+Solution count 1: 260
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -5085,7 +5085,7 @@ Root relaxation: objective 5.883486e+02, 22 iterations, 0.00 seconds
 Explored 1 nodes (35 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 549 
+Solution count 1: 549
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -5120,7 +5120,7 @@ Root relaxation: objective 5.883486e+02, 22 iterations, 0.00 seconds
 Explored 1 nodes (35 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 549 
+Solution count 1: 549
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -5155,7 +5155,7 @@ Root relaxation: objective 5.883486e+02, 22 iterations, 0.00 seconds
 Explored 1 nodes (35 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 549 
+Solution count 1: 549
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -5190,7 +5190,7 @@ Root relaxation: objective 5.883486e+02, 22 iterations, 0.00 seconds
 Explored 1 nodes (35 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 549 
+Solution count 1: 549
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -5225,7 +5225,7 @@ Root relaxation: objective 5.883486e+02, 22 iterations, 0.00 seconds
 Explored 1 nodes (35 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 549 
+Solution count 1: 549
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -5249,7 +5249,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.01 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 337 
+Solution count 1: 337
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -5271,7 +5271,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.01 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 337 
+Solution count 1: 337
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -5293,7 +5293,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.01 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 337 
+Solution count 1: 337
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -5315,7 +5315,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.01 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 337 
+Solution count 1: 337
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -5337,7 +5337,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.01 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 337 
+Solution count 1: 337
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -5378,7 +5378,7 @@ Cutting planes:
 Explored 1 nodes (43 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 893 858 
+Solution count 2: 893 858
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -5417,7 +5417,7 @@ Cutting planes:
 Explored 1 nodes (43 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 893 858 
+Solution count 2: 893 858
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -5456,7 +5456,7 @@ Cutting planes:
 Explored 1 nodes (43 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 893 858 
+Solution count 2: 893 858
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -5495,7 +5495,7 @@ Cutting planes:
 Explored 1 nodes (43 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 893 858 
+Solution count 2: 893 858
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -5534,7 +5534,7 @@ Cutting planes:
 Explored 1 nodes (43 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 893 858 
+Solution count 2: 893 858
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -5569,7 +5569,7 @@ Root relaxation: objective 7.981667e+02, 11 iterations, 0.00 seconds
 Explored 0 nodes (13 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 787 
+Solution count 1: 787
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -5602,7 +5602,7 @@ Root relaxation: objective 7.981667e+02, 11 iterations, 0.00 seconds
 Explored 0 nodes (13 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 787 
+Solution count 1: 787
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -5635,7 +5635,7 @@ Root relaxation: objective 7.981667e+02, 11 iterations, 0.00 seconds
 Explored 0 nodes (13 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 787 
+Solution count 1: 787
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -5668,7 +5668,7 @@ Root relaxation: objective 7.981667e+02, 11 iterations, 0.00 seconds
 Explored 0 nodes (13 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 787 
+Solution count 1: 787
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -5701,7 +5701,7 @@ Root relaxation: objective 7.981667e+02, 11 iterations, 0.00 seconds
 Explored 0 nodes (13 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 787 
+Solution count 1: 787
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -5744,7 +5744,7 @@ Cutting planes:
 Explored 1 nodes (320 simplex iterations) in 0.18 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 2044 1842 
+Solution count 2: 2044 1842
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.044000000000e+03, best bound 2.044000000000e+03, gap 0.0000%
@@ -5785,7 +5785,7 @@ Cutting planes:
 Explored 1 nodes (320 simplex iterations) in 0.18 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 2044 1842 
+Solution count 2: 2044 1842
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.044000000000e+03, best bound 2.044000000000e+03, gap 0.0000%
@@ -5826,7 +5826,7 @@ Cutting planes:
 Explored 1 nodes (320 simplex iterations) in 0.18 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 2044 1842 
+Solution count 2: 2044 1842
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.044000000000e+03, best bound 2.044000000000e+03, gap 0.0000%
@@ -5867,7 +5867,7 @@ Cutting planes:
 Explored 1 nodes (320 simplex iterations) in 0.18 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 2044 1842 
+Solution count 2: 2044 1842
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.044000000000e+03, best bound 2.044000000000e+03, gap 0.0000%
@@ -5908,7 +5908,7 @@ Cutting planes:
 Explored 1 nodes (320 simplex iterations) in 0.18 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 2044 1842 
+Solution count 2: 2044 1842
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.044000000000e+03, best bound 2.044000000000e+03, gap 0.0000%
@@ -5950,7 +5950,7 @@ Cutting planes:
 Explored 1 nodes (179 simplex iterations) in 0.22 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 1875 1829 
+Solution count 2: 1875 1829
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.875000000000e+03, best bound 1.875000000000e+03, gap 0.0000%
@@ -5990,7 +5990,7 @@ Cutting planes:
 Explored 1 nodes (179 simplex iterations) in 0.22 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 1875 1829 
+Solution count 2: 1875 1829
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.875000000000e+03, best bound 1.875000000000e+03, gap 0.0000%
@@ -6030,7 +6030,7 @@ Cutting planes:
 Explored 1 nodes (179 simplex iterations) in 0.22 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 1875 1829 
+Solution count 2: 1875 1829
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.875000000000e+03, best bound 1.875000000000e+03, gap 0.0000%
@@ -6070,7 +6070,7 @@ Cutting planes:
 Explored 1 nodes (179 simplex iterations) in 0.22 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 1875 1829 
+Solution count 2: 1875 1829
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.875000000000e+03, best bound 1.875000000000e+03, gap 0.0000%
@@ -6110,7 +6110,7 @@ Cutting planes:
 Explored 1 nodes (179 simplex iterations) in 0.22 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 1875 1829 
+Solution count 2: 1875 1829
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.875000000000e+03, best bound 1.875000000000e+03, gap 0.0000%
@@ -6157,7 +6157,7 @@ Cutting planes:
 Explored 1 nodes (529 simplex iterations) in 0.56 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 1773 1674 
+Solution count 2: 1773 1674
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -6202,7 +6202,7 @@ Cutting planes:
 Explored 1 nodes (529 simplex iterations) in 0.56 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 1773 1674 
+Solution count 2: 1773 1674
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -6247,7 +6247,7 @@ Cutting planes:
 Explored 1 nodes (529 simplex iterations) in 0.56 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 1773 1674 
+Solution count 2: 1773 1674
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -6292,7 +6292,7 @@ Cutting planes:
 Explored 1 nodes (529 simplex iterations) in 0.56 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 1773 1674 
+Solution count 2: 1773 1674
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -6337,7 +6337,7 @@ Cutting planes:
 Explored 1 nodes (529 simplex iterations) in 0.56 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 1773 1674 
+Solution count 2: 1773 1674
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -6376,7 +6376,7 @@ Cutting planes:
 Explored 1 nodes (365 simplex iterations) in 0.49 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 3398 
+Solution count 1: 3398
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -6413,7 +6413,7 @@ Cutting planes:
 Explored 1 nodes (365 simplex iterations) in 0.49 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 3398 
+Solution count 1: 3398
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -6450,7 +6450,7 @@ Cutting planes:
 Explored 1 nodes (365 simplex iterations) in 0.49 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 3398 
+Solution count 1: 3398
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -6487,7 +6487,7 @@ Cutting planes:
 Explored 1 nodes (365 simplex iterations) in 0.50 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 3398 
+Solution count 1: 3398
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -6524,7 +6524,7 @@ Cutting planes:
 Explored 1 nodes (365 simplex iterations) in 0.49 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 3398 
+Solution count 1: 3398
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -6586,7 +6586,7 @@ Cutting planes:
 Explored 1 nodes (2265 simplex iterations) in 7.41 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 7736 7460 
+Solution count 2: 7736 7460
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.736000000000e+03, best bound 7.736000000000e+03, gap 0.0000%
@@ -6646,7 +6646,7 @@ Cutting planes:
 Explored 1 nodes (2265 simplex iterations) in 7.46 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 7736 7460 
+Solution count 2: 7736 7460
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.736000000000e+03, best bound 7.736000000000e+03, gap 0.0000%
@@ -6706,7 +6706,7 @@ Cutting planes:
 Explored 1 nodes (2265 simplex iterations) in 7.42 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 7736 7460 
+Solution count 2: 7736 7460
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.736000000000e+03, best bound 7.736000000000e+03, gap 0.0000%
@@ -6766,7 +6766,7 @@ Cutting planes:
 Explored 1 nodes (2265 simplex iterations) in 7.46 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 7736 7460 
+Solution count 2: 7736 7460
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.736000000000e+03, best bound 7.736000000000e+03, gap 0.0000%
@@ -6826,7 +6826,7 @@ Cutting planes:
 Explored 1 nodes (2265 simplex iterations) in 7.38 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 7736 7460 
+Solution count 2: 7736 7460
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.736000000000e+03, best bound 7.736000000000e+03, gap 0.0000%
@@ -6898,7 +6898,7 @@ Cutting planes:
 Explored 1 nodes (6227 simplex iterations) in 310.61 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 22929 22524 
+Solution count 2: 22929 22524
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.292900000000e+04, best bound 2.292900000000e+04, gap 0.0000%
@@ -6969,7 +6969,7 @@ Cutting planes:
 Explored 1 nodes (6227 simplex iterations) in 303.64 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 22929 22524 
+Solution count 2: 22929 22524
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.292900000000e+04, best bound 2.292900000000e+04, gap 0.0000%
@@ -7041,7 +7041,7 @@ Cutting planes:
 Explored 1 nodes (6227 simplex iterations) in 295.17 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 22929 22524 
+Solution count 2: 22929 22524
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.292900000000e+04, best bound 2.292900000000e+04, gap 0.0000%
@@ -7113,7 +7113,7 @@ Cutting planes:
 Explored 1 nodes (6227 simplex iterations) in 304.65 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 22929 22524 
+Solution count 2: 22929 22524
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.292900000000e+04, best bound 2.292900000000e+04, gap 0.0000%
@@ -7183,7 +7183,7 @@ Cutting planes:
 Explored 1 nodes (6227 simplex iterations) in 291.09 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 22929 22524 
+Solution count 2: 22929 22524
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.292900000000e+04, best bound 2.292900000000e+04, gap 0.0000%
@@ -7221,7 +7221,7 @@ H    0     0                     193.0000000  220.69512  14.3%     -    0s
 Explored 1 nodes (36 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 193 192 130 
+Solution count 3: 193 192 130
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -7256,7 +7256,7 @@ H    0     0                     193.0000000  220.69512  14.3%     -    0s
 Explored 1 nodes (36 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 193 192 130 
+Solution count 3: 193 192 130
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -7291,7 +7291,7 @@ H    0     0                     193.0000000  220.69512  14.3%     -    0s
 Explored 1 nodes (36 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 193 192 130 
+Solution count 3: 193 192 130
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -7326,7 +7326,7 @@ H    0     0                     193.0000000  220.69512  14.3%     -    0s
 Explored 1 nodes (36 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 193 192 130 
+Solution count 3: 193 192 130
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -7361,7 +7361,7 @@ H    0     0                     193.0000000  220.69512  14.3%     -    0s
 Explored 1 nodes (36 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 193 192 130 
+Solution count 3: 193 192 130
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -7385,7 +7385,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 330 
+Solution count 1: 330
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -7407,7 +7407,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 330 
+Solution count 1: 330
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -7429,7 +7429,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 330 
+Solution count 1: 330
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -7451,7 +7451,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 330 
+Solution count 1: 330
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -7473,7 +7473,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 330 
+Solution count 1: 330
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -7497,7 +7497,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 260 
+Solution count 1: 260
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -7519,7 +7519,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 260 
+Solution count 1: 260
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -7541,7 +7541,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 260 
+Solution count 1: 260
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -7563,7 +7563,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 260 
+Solution count 1: 260
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -7585,7 +7585,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.00 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 260 
+Solution count 1: 260
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -7622,7 +7622,7 @@ Root relaxation: objective 5.883486e+02, 22 iterations, 0.00 seconds
 Explored 1 nodes (35 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 549 
+Solution count 1: 549
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -7657,7 +7657,7 @@ Root relaxation: objective 5.883486e+02, 22 iterations, 0.00 seconds
 Explored 1 nodes (35 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 549 
+Solution count 1: 549
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -7692,7 +7692,7 @@ Root relaxation: objective 5.883486e+02, 22 iterations, 0.00 seconds
 Explored 1 nodes (35 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 549 
+Solution count 1: 549
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -7727,7 +7727,7 @@ Root relaxation: objective 5.883486e+02, 22 iterations, 0.00 seconds
 Explored 1 nodes (35 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 549 
+Solution count 1: 549
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -7762,7 +7762,7 @@ Root relaxation: objective 5.883486e+02, 22 iterations, 0.00 seconds
 Explored 1 nodes (35 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 549 
+Solution count 1: 549
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -7786,7 +7786,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.01 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 337 
+Solution count 1: 337
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -7808,7 +7808,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.01 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 337 
+Solution count 1: 337
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -7830,7 +7830,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.01 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 337 
+Solution count 1: 337
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -7852,7 +7852,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.01 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 337 
+Solution count 1: 337
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -7874,7 +7874,7 @@ Presolve: All rows and columns removed
 Explored 0 nodes (0 simplex iterations) in 0.01 seconds
 Thread count was 1 (of 4 available processors)
 
-Solution count 1: 337 
+Solution count 1: 337
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -7915,7 +7915,7 @@ Cutting planes:
 Explored 1 nodes (43 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 893 858 
+Solution count 2: 893 858
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -7954,7 +7954,7 @@ Cutting planes:
 Explored 1 nodes (43 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 893 858 
+Solution count 2: 893 858
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -7993,7 +7993,7 @@ Cutting planes:
 Explored 1 nodes (43 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 893 858 
+Solution count 2: 893 858
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -8032,7 +8032,7 @@ Cutting planes:
 Explored 1 nodes (43 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 893 858 
+Solution count 2: 893 858
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -8071,7 +8071,7 @@ Cutting planes:
 Explored 1 nodes (43 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 893 858 
+Solution count 2: 893 858
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -8106,7 +8106,7 @@ Root relaxation: objective 7.981667e+02, 11 iterations, 0.00 seconds
 Explored 0 nodes (13 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 787 
+Solution count 1: 787
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -8139,7 +8139,7 @@ Root relaxation: objective 7.981667e+02, 11 iterations, 0.00 seconds
 Explored 0 nodes (13 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 787 
+Solution count 1: 787
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -8172,7 +8172,7 @@ Root relaxation: objective 7.981667e+02, 11 iterations, 0.00 seconds
 Explored 0 nodes (13 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 787 
+Solution count 1: 787
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -8205,7 +8205,7 @@ Root relaxation: objective 7.981667e+02, 11 iterations, 0.00 seconds
 Explored 0 nodes (13 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 787 
+Solution count 1: 787
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -8238,7 +8238,7 @@ Root relaxation: objective 7.981667e+02, 11 iterations, 0.00 seconds
 Explored 0 nodes (13 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 787 
+Solution count 1: 787
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -8283,7 +8283,7 @@ Cutting planes:
 Explored 1 nodes (306 simplex iterations) in 0.18 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 2044 1945 1941 1842 
+Solution count 4: 2044 1945 1941 1842
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.044000000000e+03, best bound 2.044000000000e+03, gap 0.0000%
@@ -8326,7 +8326,7 @@ Cutting planes:
 Explored 1 nodes (306 simplex iterations) in 0.18 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 2044 1945 1941 1842 
+Solution count 4: 2044 1945 1941 1842
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.044000000000e+03, best bound 2.044000000000e+03, gap 0.0000%
@@ -8369,7 +8369,7 @@ Cutting planes:
 Explored 1 nodes (306 simplex iterations) in 0.17 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 2044 1945 1941 1842 
+Solution count 4: 2044 1945 1941 1842
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.044000000000e+03, best bound 2.044000000000e+03, gap 0.0000%
@@ -8412,7 +8412,7 @@ Cutting planes:
 Explored 1 nodes (306 simplex iterations) in 0.17 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 2044 1945 1941 1842 
+Solution count 4: 2044 1945 1941 1842
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.044000000000e+03, best bound 2.044000000000e+03, gap 0.0000%
@@ -8455,7 +8455,7 @@ Cutting planes:
 Explored 1 nodes (306 simplex iterations) in 0.18 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 2044 1945 1941 1842 
+Solution count 4: 2044 1945 1941 1842
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.044000000000e+03, best bound 2.044000000000e+03, gap 0.0000%
@@ -8493,7 +8493,7 @@ H    0     0                    1875.0000000 2059.44286  9.84%     -    0s
 Explored 1 nodes (181 simplex iterations) in 0.22 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 1875 1829 
+Solution count 2: 1875 1829
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.875000000000e+03, best bound 1.875000000000e+03, gap 0.0000%
@@ -8529,7 +8529,7 @@ H    0     0                    1875.0000000 2059.44286  9.84%     -    0s
 Explored 1 nodes (181 simplex iterations) in 0.22 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 1875 1829 
+Solution count 2: 1875 1829
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.875000000000e+03, best bound 1.875000000000e+03, gap 0.0000%
@@ -8565,7 +8565,7 @@ H    0     0                    1875.0000000 2059.44286  9.84%     -    0s
 Explored 1 nodes (181 simplex iterations) in 0.22 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 1875 1829 
+Solution count 2: 1875 1829
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.875000000000e+03, best bound 1.875000000000e+03, gap 0.0000%
@@ -8601,7 +8601,7 @@ H    0     0                    1875.0000000 2059.44286  9.84%     -    0s
 Explored 1 nodes (181 simplex iterations) in 0.22 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 1875 1829 
+Solution count 2: 1875 1829
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.875000000000e+03, best bound 1.875000000000e+03, gap 0.0000%
@@ -8637,7 +8637,7 @@ H    0     0                    1875.0000000 2059.44286  9.84%     -    0s
 Explored 1 nodes (181 simplex iterations) in 0.22 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 1875 1829 
+Solution count 2: 1875 1829
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.875000000000e+03, best bound 1.875000000000e+03, gap 0.0000%
@@ -8679,7 +8679,7 @@ H    0     0                    1754.0000000 1791.80899  2.16%     -    0s
 Explored 1 nodes (537 simplex iterations) in 0.58 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 1773 1754 1674 
+Solution count 3: 1773 1754 1674
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -8719,7 +8719,7 @@ H    0     0                    1754.0000000 1791.80899  2.16%     -    0s
 Explored 1 nodes (537 simplex iterations) in 0.58 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 1773 1754 1674 
+Solution count 3: 1773 1754 1674
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -8759,7 +8759,7 @@ H    0     0                    1754.0000000 1791.80899  2.16%     -    0s
 Explored 1 nodes (537 simplex iterations) in 0.58 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 1773 1754 1674 
+Solution count 3: 1773 1754 1674
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -8799,7 +8799,7 @@ H    0     0                    1754.0000000 1791.80899  2.16%     -    0s
 Explored 1 nodes (537 simplex iterations) in 0.58 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 1773 1754 1674 
+Solution count 3: 1773 1754 1674
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -8839,7 +8839,7 @@ H    0     0                    1754.0000000 1791.80899  2.16%     -    0s
 Explored 1 nodes (537 simplex iterations) in 0.58 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 1773 1754 1674 
+Solution count 3: 1773 1754 1674
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -8878,7 +8878,7 @@ Cutting planes:
 Explored 1 nodes (365 simplex iterations) in 0.50 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 3398 
+Solution count 1: 3398
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -8915,7 +8915,7 @@ Cutting planes:
 Explored 1 nodes (365 simplex iterations) in 0.50 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 3398 
+Solution count 1: 3398
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -8952,7 +8952,7 @@ Cutting planes:
 Explored 1 nodes (365 simplex iterations) in 0.50 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 3398 
+Solution count 1: 3398
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -8989,7 +8989,7 @@ Cutting planes:
 Explored 1 nodes (365 simplex iterations) in 0.50 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 3398 
+Solution count 1: 3398
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -9026,7 +9026,7 @@ Cutting planes:
 Explored 1 nodes (365 simplex iterations) in 0.50 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 3398 
+Solution count 1: 3398
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -9090,7 +9090,7 @@ Cutting planes:
 Explored 1 nodes (2153 simplex iterations) in 7.45 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 7736 7633 7621 7460 
+Solution count 4: 7736 7633 7621 7460
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.736000000000e+03, best bound 7.736000000000e+03, gap 0.0000%
@@ -9152,7 +9152,7 @@ Cutting planes:
 Explored 1 nodes (2153 simplex iterations) in 7.41 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 7736 7633 7621 7460 
+Solution count 4: 7736 7633 7621 7460
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.736000000000e+03, best bound 7.736000000000e+03, gap 0.0000%
@@ -9214,7 +9214,7 @@ Cutting planes:
 Explored 1 nodes (2153 simplex iterations) in 7.44 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 7736 7633 7621 7460 
+Solution count 4: 7736 7633 7621 7460
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.736000000000e+03, best bound 7.736000000000e+03, gap 0.0000%
@@ -9276,7 +9276,7 @@ Cutting planes:
 Explored 1 nodes (2153 simplex iterations) in 7.48 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 7736 7633 7621 7460 
+Solution count 4: 7736 7633 7621 7460
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.736000000000e+03, best bound 7.736000000000e+03, gap 0.0000%
@@ -9338,7 +9338,7 @@ Cutting planes:
 Explored 1 nodes (2153 simplex iterations) in 7.42 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 7736 7633 7621 7460 
+Solution count 4: 7736 7633 7621 7460
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.736000000000e+03, best bound 7.736000000000e+03, gap 0.0000%
@@ -9702,7 +9702,7 @@ Cutting planes:
 Explored 1 nodes (80 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 193 
+Solution count 1: 193
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -9741,7 +9741,7 @@ Cutting planes:
 Explored 1 nodes (80 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 193 
+Solution count 1: 193
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -9780,7 +9780,7 @@ Cutting planes:
 Explored 1 nodes (80 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 193 
+Solution count 1: 193
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -9819,7 +9819,7 @@ Cutting planes:
 Explored 1 nodes (80 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 193 
+Solution count 1: 193
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -9858,7 +9858,7 @@ Cutting planes:
 Explored 1 nodes (80 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 193 
+Solution count 1: 193
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -9895,7 +9895,7 @@ Cutting planes:
 Explored 1 nodes (42 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 330 
+Solution count 1: 330
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -9930,7 +9930,7 @@ Cutting planes:
 Explored 1 nodes (42 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 330 
+Solution count 1: 330
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -9965,7 +9965,7 @@ Cutting planes:
 Explored 1 nodes (42 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 330 
+Solution count 1: 330
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -10000,7 +10000,7 @@ Cutting planes:
 Explored 1 nodes (42 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 330 
+Solution count 1: 330
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -10035,7 +10035,7 @@ Cutting planes:
 Explored 1 nodes (42 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 330 
+Solution count 1: 330
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -10071,7 +10071,7 @@ Cutting planes:
 Explored 1 nodes (43 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 260 
+Solution count 1: 260
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -10105,7 +10105,7 @@ Cutting planes:
 Explored 1 nodes (43 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 260 
+Solution count 1: 260
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -10139,7 +10139,7 @@ Cutting planes:
 Explored 1 nodes (43 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 260 
+Solution count 1: 260
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -10173,7 +10173,7 @@ Cutting planes:
 Explored 1 nodes (43 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 260 
+Solution count 1: 260
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -10207,7 +10207,7 @@ Cutting planes:
 Explored 1 nodes (43 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 260 
+Solution count 1: 260
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -10249,7 +10249,7 @@ Cutting planes:
 Explored 1 nodes (116 simplex iterations) in 0.03 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 549 
+Solution count 1: 549
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -10289,7 +10289,7 @@ Cutting planes:
 Explored 1 nodes (116 simplex iterations) in 0.03 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 549 
+Solution count 1: 549
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -10329,7 +10329,7 @@ Cutting planes:
 Explored 1 nodes (116 simplex iterations) in 0.03 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 549 
+Solution count 1: 549
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -10369,7 +10369,7 @@ Cutting planes:
 Explored 1 nodes (116 simplex iterations) in 0.03 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 549 
+Solution count 1: 549
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -10409,7 +10409,7 @@ Cutting planes:
 Explored 1 nodes (116 simplex iterations) in 0.03 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 549 
+Solution count 1: 549
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -10446,7 +10446,7 @@ Cutting planes:
 Explored 1 nodes (91 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 337 
+Solution count 1: 337
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -10481,7 +10481,7 @@ Cutting planes:
 Explored 1 nodes (91 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 337 
+Solution count 1: 337
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -10516,7 +10516,7 @@ Cutting planes:
 Explored 1 nodes (91 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 337 
+Solution count 1: 337
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -10551,7 +10551,7 @@ Cutting planes:
 Explored 1 nodes (91 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 337 
+Solution count 1: 337
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -10586,7 +10586,7 @@ Cutting planes:
 Explored 1 nodes (91 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 337 
+Solution count 1: 337
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -10627,7 +10627,7 @@ Cutting planes:
 Explored 1 nodes (125 simplex iterations) in 0.05 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 893 
+Solution count 1: 893
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -10666,7 +10666,7 @@ Cutting planes:
 Explored 1 nodes (125 simplex iterations) in 0.05 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 893 
+Solution count 1: 893
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -10705,7 +10705,7 @@ Cutting planes:
 Explored 1 nodes (125 simplex iterations) in 0.05 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 893 
+Solution count 1: 893
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -10744,7 +10744,7 @@ Cutting planes:
 Explored 1 nodes (125 simplex iterations) in 0.05 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 893 
+Solution count 1: 893
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -10783,7 +10783,7 @@ Cutting planes:
 Explored 1 nodes (125 simplex iterations) in 0.05 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 893 
+Solution count 1: 893
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -10826,7 +10826,7 @@ Cutting planes:
 Explored 1 nodes (135 simplex iterations) in 0.04 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 787 
+Solution count 1: 787
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -10867,7 +10867,7 @@ Cutting planes:
 Explored 1 nodes (135 simplex iterations) in 0.04 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 787 
+Solution count 1: 787
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -10908,7 +10908,7 @@ Cutting planes:
 Explored 1 nodes (135 simplex iterations) in 0.04 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 787 
+Solution count 1: 787
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -10949,7 +10949,7 @@ Cutting planes:
 Explored 1 nodes (135 simplex iterations) in 0.04 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 787 
+Solution count 1: 787
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -10990,7 +10990,7 @@ Cutting planes:
 Explored 1 nodes (135 simplex iterations) in 0.04 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 787 
+Solution count 1: 787
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -11031,7 +11031,7 @@ Cutting planes:
 Explored 1 nodes (525 simplex iterations) in 0.17 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 2044 
+Solution count 1: 2044
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.044000000000e+03, best bound 2.044000000000e+03, gap 0.0000%
@@ -11070,7 +11070,7 @@ Cutting planes:
 Explored 1 nodes (525 simplex iterations) in 0.17 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 2044 
+Solution count 1: 2044
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.044000000000e+03, best bound 2.044000000000e+03, gap 0.0000%
@@ -11109,7 +11109,7 @@ Cutting planes:
 Explored 1 nodes (525 simplex iterations) in 0.17 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 2044 
+Solution count 1: 2044
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.044000000000e+03, best bound 2.044000000000e+03, gap 0.0000%
@@ -11148,7 +11148,7 @@ Cutting planes:
 Explored 1 nodes (525 simplex iterations) in 0.17 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 2044 
+Solution count 1: 2044
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.044000000000e+03, best bound 2.044000000000e+03, gap 0.0000%
@@ -11187,7 +11187,7 @@ Cutting planes:
 Explored 1 nodes (525 simplex iterations) in 0.17 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 2044 
+Solution count 1: 2044
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.044000000000e+03, best bound 2.044000000000e+03, gap 0.0000%
@@ -11232,7 +11232,7 @@ Cutting planes:
 Explored 1 nodes (288 simplex iterations) in 0.22 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 1875 
+Solution count 1: 1875
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.875000000000e+03, best bound 1.875000000000e+03, gap 0.0000%
@@ -11275,7 +11275,7 @@ Cutting planes:
 Explored 1 nodes (288 simplex iterations) in 0.21 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 1875 
+Solution count 1: 1875
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.875000000000e+03, best bound 1.875000000000e+03, gap 0.0000%
@@ -11318,7 +11318,7 @@ Cutting planes:
 Explored 1 nodes (288 simplex iterations) in 0.21 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 1875 
+Solution count 1: 1875
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.875000000000e+03, best bound 1.875000000000e+03, gap 0.0000%
@@ -11361,7 +11361,7 @@ Cutting planes:
 Explored 1 nodes (288 simplex iterations) in 0.22 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 1875 
+Solution count 1: 1875
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.875000000000e+03, best bound 1.875000000000e+03, gap 0.0000%
@@ -11404,7 +11404,7 @@ Cutting planes:
 Explored 1 nodes (288 simplex iterations) in 0.21 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 1875 
+Solution count 1: 1875
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.875000000000e+03, best bound 1.875000000000e+03, gap 0.0000%
@@ -11446,7 +11446,7 @@ Cutting planes:
 Explored 1 nodes (558 simplex iterations) in 0.31 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 1773 
+Solution count 1: 1773
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -11486,7 +11486,7 @@ Cutting planes:
 Explored 1 nodes (558 simplex iterations) in 0.31 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 1773 
+Solution count 1: 1773
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -11526,7 +11526,7 @@ Cutting planes:
 Explored 1 nodes (558 simplex iterations) in 0.31 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 1773 
+Solution count 1: 1773
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -11566,7 +11566,7 @@ Cutting planes:
 Explored 1 nodes (558 simplex iterations) in 0.31 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 1773 
+Solution count 1: 1773
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -11606,7 +11606,7 @@ Cutting planes:
 Explored 1 nodes (558 simplex iterations) in 0.31 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 1773 
+Solution count 1: 1773
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -11645,7 +11645,7 @@ Cutting planes:
 Explored 1 nodes (569 simplex iterations) in 0.49 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 3398 
+Solution count 1: 3398
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -11682,7 +11682,7 @@ Cutting planes:
 Explored 1 nodes (569 simplex iterations) in 0.48 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 3398 
+Solution count 1: 3398
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -11719,7 +11719,7 @@ Cutting planes:
 Explored 1 nodes (569 simplex iterations) in 0.48 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 3398 
+Solution count 1: 3398
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -11756,7 +11756,7 @@ Cutting planes:
 Explored 1 nodes (569 simplex iterations) in 0.48 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 3398 
+Solution count 1: 3398
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -11793,7 +11793,7 @@ Cutting planes:
 Explored 1 nodes (569 simplex iterations) in 0.48 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 3398 
+Solution count 1: 3398
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -11844,7 +11844,7 @@ Cutting planes:
 Explored 22 nodes (3401 simplex iterations) in 4.80 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 7736 
+Solution count 1: 7736
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.736000000000e+03, best bound 7.736000000000e+03, gap 0.0000%
@@ -11893,7 +11893,7 @@ Cutting planes:
 Explored 22 nodes (3401 simplex iterations) in 4.75 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 7736 
+Solution count 1: 7736
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.736000000000e+03, best bound 7.736000000000e+03, gap 0.0000%
@@ -11942,7 +11942,7 @@ Cutting planes:
 Explored 22 nodes (3401 simplex iterations) in 4.84 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 7736 
+Solution count 1: 7736
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.736000000000e+03, best bound 7.736000000000e+03, gap 0.0000%
@@ -11991,7 +11991,7 @@ Cutting planes:
 Explored 22 nodes (3401 simplex iterations) in 4.76 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 7736 
+Solution count 1: 7736
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.736000000000e+03, best bound 7.736000000000e+03, gap 0.0000%
@@ -12041,7 +12041,7 @@ Cutting planes:
 Explored 22 nodes (3401 simplex iterations) in 5.17 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 7736 
+Solution count 1: 7736
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.736000000000e+03, best bound 7.736000000000e+03, gap 0.0000%
@@ -12104,7 +12104,7 @@ Cutting planes:
 Explored 73 nodes (11474 simplex iterations) in 43.64 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 22929 22771 22757 22089 
+Solution count 4: 22929 22771 22757 22089
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.292900000000e+04, best bound 2.292900000000e+04, gap 0.0000%
@@ -12165,7 +12165,7 @@ Cutting planes:
 Explored 73 nodes (11474 simplex iterations) in 42.46 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 22929 22771 22757 22089 
+Solution count 4: 22929 22771 22757 22089
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.292900000000e+04, best bound 2.292900000000e+04, gap 0.0000%
@@ -12226,7 +12226,7 @@ Cutting planes:
 Explored 73 nodes (11474 simplex iterations) in 42.23 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 22929 22771 22757 22089 
+Solution count 4: 22929 22771 22757 22089
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.292900000000e+04, best bound 2.292900000000e+04, gap 0.0000%
@@ -12288,7 +12288,7 @@ Cutting planes:
 Explored 73 nodes (11474 simplex iterations) in 42.07 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 22929 22771 22757 22089 
+Solution count 4: 22929 22771 22757 22089
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.292900000000e+04, best bound 2.292900000000e+04, gap 0.0000%
@@ -12350,7 +12350,7 @@ Cutting planes:
 Explored 73 nodes (11474 simplex iterations) in 41.82 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 22929 22771 22757 22089 
+Solution count 4: 22929 22771 22757 22089
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.292900000000e+04, best bound 2.292900000000e+04, gap 0.0000%
@@ -12394,7 +12394,7 @@ Cutting planes:
 Explored 1 nodes (51 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 193 192 162 41 
+Solution count 4: 193 192 162 41
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -12435,7 +12435,7 @@ Cutting planes:
 Explored 1 nodes (51 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 193 192 162 41 
+Solution count 4: 193 192 162 41
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -12476,7 +12476,7 @@ Cutting planes:
 Explored 1 nodes (51 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 193 192 162 41 
+Solution count 4: 193 192 162 41
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -12517,7 +12517,7 @@ Cutting planes:
 Explored 1 nodes (51 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 193 192 162 41 
+Solution count 4: 193 192 162 41
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -12558,7 +12558,7 @@ Cutting planes:
 Explored 1 nodes (51 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 193 192 162 41 
+Solution count 4: 193 192 162 41
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -12595,7 +12595,7 @@ Cutting planes:
 Explored 1 nodes (31 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 330 311 49 
+Solution count 3: 330 311 49
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -12630,7 +12630,7 @@ Cutting planes:
 Explored 1 nodes (31 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 330 311 49 
+Solution count 3: 330 311 49
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -12665,7 +12665,7 @@ Cutting planes:
 Explored 1 nodes (31 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 330 311 49 
+Solution count 3: 330 311 49
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -12700,7 +12700,7 @@ Cutting planes:
 Explored 1 nodes (31 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 330 311 49 
+Solution count 3: 330 311 49
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -12735,7 +12735,7 @@ Cutting planes:
 Explored 1 nodes (31 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 330 311 49 
+Solution count 3: 330 311 49
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -12772,7 +12772,7 @@ Cutting planes:
 Explored 1 nodes (40 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 260 36 
+Solution count 2: 260 36
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -12807,7 +12807,7 @@ Cutting planes:
 Explored 1 nodes (40 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 260 36 
+Solution count 2: 260 36
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -12842,7 +12842,7 @@ Cutting planes:
 Explored 1 nodes (40 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 260 36 
+Solution count 2: 260 36
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -12877,7 +12877,7 @@ Cutting planes:
 Explored 1 nodes (40 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 260 36 
+Solution count 2: 260 36
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -12912,7 +12912,7 @@ Cutting planes:
 Explored 1 nodes (40 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 260 36 
+Solution count 2: 260 36
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -12951,7 +12951,7 @@ Cutting planes:
 Explored 1 nodes (94 simplex iterations) in 0.03 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 549 533 360 46 
+Solution count 4: 549 533 360 46
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -12988,7 +12988,7 @@ Cutting planes:
 Explored 1 nodes (94 simplex iterations) in 0.03 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 549 533 360 46 
+Solution count 4: 549 533 360 46
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -13025,7 +13025,7 @@ Cutting planes:
 Explored 1 nodes (94 simplex iterations) in 0.03 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 549 533 360 46 
+Solution count 4: 549 533 360 46
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -13062,7 +13062,7 @@ Cutting planes:
 Explored 1 nodes (94 simplex iterations) in 0.03 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 549 533 360 46 
+Solution count 4: 549 533 360 46
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -13099,7 +13099,7 @@ Cutting planes:
 Explored 1 nodes (94 simplex iterations) in 0.03 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 549 533 360 46 
+Solution count 4: 549 533 360 46
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -13137,7 +13137,7 @@ Cutting planes:
 Explored 1 nodes (62 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 337 261 92 
+Solution count 3: 337 261 92
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -13173,7 +13173,7 @@ Cutting planes:
 Explored 1 nodes (62 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 337 261 92 
+Solution count 3: 337 261 92
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -13209,7 +13209,7 @@ Cutting planes:
 Explored 1 nodes (62 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 337 261 92 
+Solution count 3: 337 261 92
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -13245,7 +13245,7 @@ Cutting planes:
 Explored 1 nodes (62 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 337 261 92 
+Solution count 3: 337 261 92
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -13281,7 +13281,7 @@ Cutting planes:
 Explored 1 nodes (62 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 337 261 92 
+Solution count 3: 337 261 92
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -13511,7 +13511,7 @@ Cutting planes:
 Explored 1 nodes (63 simplex iterations) in 0.03 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 787 764 20 
+Solution count 3: 787 764 20
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -13547,7 +13547,7 @@ Cutting planes:
 Explored 1 nodes (63 simplex iterations) in 0.03 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 787 764 20 
+Solution count 3: 787 764 20
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -13583,7 +13583,7 @@ Cutting planes:
 Explored 1 nodes (63 simplex iterations) in 0.03 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 787 764 20 
+Solution count 3: 787 764 20
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -13619,7 +13619,7 @@ Cutting planes:
 Explored 1 nodes (63 simplex iterations) in 0.03 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 787 764 20 
+Solution count 3: 787 764 20
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -13655,7 +13655,7 @@ Cutting planes:
 Explored 1 nodes (63 simplex iterations) in 0.03 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 787 764 20 
+Solution count 3: 787 764 20
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -14100,7 +14100,7 @@ H    0     0                    1754.0000000 2091.20259  19.2%     -    0s
 Explored 1 nodes (590 simplex iterations) in 0.31 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 1773 1754 1563 355 
+Solution count 4: 1773 1754 1563 355
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -14134,7 +14134,7 @@ H    0     0                    1754.0000000 2091.20259  19.2%     -    0s
 Explored 1 nodes (590 simplex iterations) in 0.31 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 1773 1754 1563 355 
+Solution count 4: 1773 1754 1563 355
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -14168,7 +14168,7 @@ H    0     0                    1754.0000000 2091.20259  19.2%     -    0s
 Explored 1 nodes (590 simplex iterations) in 0.31 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 1773 1754 1563 355 
+Solution count 4: 1773 1754 1563 355
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -14202,7 +14202,7 @@ H    0     0                    1754.0000000 2091.20259  19.2%     -    0s
 Explored 1 nodes (590 simplex iterations) in 0.31 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 1773 1754 1563 355 
+Solution count 4: 1773 1754 1563 355
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -14236,7 +14236,7 @@ H    0     0                    1754.0000000 2091.20259  19.2%     -    0s
 Explored 1 nodes (590 simplex iterations) in 0.31 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 1773 1754 1563 355 
+Solution count 4: 1773 1754 1563 355
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -14271,7 +14271,7 @@ H    0     0                    3398.0000000 4053.34375  19.3%     -    0s
 Explored 1 nodes (652 simplex iterations) in 0.48 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 3398 3245 3024 199 
+Solution count 4: 3398 3245 3024 199
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -14304,7 +14304,7 @@ H    0     0                    3398.0000000 4053.34375  19.3%     -    0s
 Explored 1 nodes (652 simplex iterations) in 0.47 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 3398 3245 3024 199 
+Solution count 4: 3398 3245 3024 199
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -14337,7 +14337,7 @@ H    0     0                    3398.0000000 4053.34375  19.3%     -    0s
 Explored 1 nodes (652 simplex iterations) in 0.47 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 3398 3245 3024 199 
+Solution count 4: 3398 3245 3024 199
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -14370,7 +14370,7 @@ H    0     0                    3398.0000000 4053.34375  19.3%     -    0s
 Explored 1 nodes (652 simplex iterations) in 0.47 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 3398 3245 3024 199 
+Solution count 4: 3398 3245 3024 199
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -14403,7 +14403,7 @@ H    0     0                    3398.0000000 4053.34375  19.3%     -    0s
 Explored 1 nodes (652 simplex iterations) in 0.47 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 3398 3245 3024 199 
+Solution count 4: 3398 3245 3024 199
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -14954,7 +14954,7 @@ Cutting planes:
 Explored 1 nodes (72 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 193 
+Solution count 1: 193
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -14997,7 +14997,7 @@ Cutting planes:
 Explored 1 nodes (72 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 193 
+Solution count 1: 193
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -15040,7 +15040,7 @@ Cutting planes:
 Explored 1 nodes (72 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 193 
+Solution count 1: 193
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -15083,7 +15083,7 @@ Cutting planes:
 Explored 1 nodes (72 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 193 
+Solution count 1: 193
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -15126,7 +15126,7 @@ Cutting planes:
 Explored 1 nodes (72 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 193 
+Solution count 1: 193
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -15165,7 +15165,7 @@ Cutting planes:
 Explored 1 nodes (41 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 330 
+Solution count 1: 330
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -15202,7 +15202,7 @@ Cutting planes:
 Explored 1 nodes (41 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 330 
+Solution count 1: 330
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -15239,7 +15239,7 @@ Cutting planes:
 Explored 1 nodes (41 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 330 
+Solution count 1: 330
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -15276,7 +15276,7 @@ Cutting planes:
 Explored 1 nodes (41 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 330 
+Solution count 1: 330
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -15313,7 +15313,7 @@ Cutting planes:
 Explored 1 nodes (41 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 330 
+Solution count 1: 330
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -15352,7 +15352,7 @@ Cutting planes:
 Explored 1 nodes (37 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 260 
+Solution count 1: 260
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -15389,7 +15389,7 @@ Cutting planes:
 Explored 1 nodes (37 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 260 
+Solution count 1: 260
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -15426,7 +15426,7 @@ Cutting planes:
 Explored 1 nodes (37 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 260 
+Solution count 1: 260
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -15463,7 +15463,7 @@ Cutting planes:
 Explored 1 nodes (37 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 260 
+Solution count 1: 260
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -15500,7 +15500,7 @@ Cutting planes:
 Explored 1 nodes (37 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 260 
+Solution count 1: 260
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -15545,7 +15545,7 @@ Cutting planes:
 Explored 1 nodes (110 simplex iterations) in 0.03 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 549 
+Solution count 1: 549
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -15588,7 +15588,7 @@ Cutting planes:
 Explored 1 nodes (110 simplex iterations) in 0.03 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 549 
+Solution count 1: 549
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -15631,7 +15631,7 @@ Cutting planes:
 Explored 1 nodes (110 simplex iterations) in 0.03 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 549 
+Solution count 1: 549
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -15674,7 +15674,7 @@ Cutting planes:
 Explored 1 nodes (110 simplex iterations) in 0.03 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 549 
+Solution count 1: 549
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -15717,7 +15717,7 @@ Cutting planes:
 Explored 1 nodes (110 simplex iterations) in 0.03 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 549 
+Solution count 1: 549
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -15757,7 +15757,7 @@ Cutting planes:
 Explored 1 nodes (83 simplex iterations) in 0.03 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 337 
+Solution count 1: 337
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -15795,7 +15795,7 @@ Cutting planes:
 Explored 1 nodes (83 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 337 
+Solution count 1: 337
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -15833,7 +15833,7 @@ Cutting planes:
 Explored 1 nodes (83 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 337 
+Solution count 1: 337
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -15871,7 +15871,7 @@ Cutting planes:
 Explored 1 nodes (83 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 337 
+Solution count 1: 337
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -15909,7 +15909,7 @@ Cutting planes:
 Explored 1 nodes (83 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 337 
+Solution count 1: 337
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -15953,7 +15953,7 @@ Cutting planes:
 Explored 1 nodes (181 simplex iterations) in 0.06 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 893 
+Solution count 1: 893
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -15995,7 +15995,7 @@ Cutting planes:
 Explored 1 nodes (181 simplex iterations) in 0.06 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 893 
+Solution count 1: 893
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -16037,7 +16037,7 @@ Cutting planes:
 Explored 1 nodes (181 simplex iterations) in 0.06 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 893 
+Solution count 1: 893
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -16079,7 +16079,7 @@ Cutting planes:
 Explored 1 nodes (181 simplex iterations) in 0.06 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 893 
+Solution count 1: 893
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -16121,7 +16121,7 @@ Cutting planes:
 Explored 1 nodes (181 simplex iterations) in 0.05 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 893 
+Solution count 1: 893
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -16163,7 +16163,7 @@ Cutting planes:
 Explored 1 nodes (111 simplex iterations) in 0.04 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 787 
+Solution count 1: 787
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -16203,7 +16203,7 @@ Cutting planes:
 Explored 1 nodes (111 simplex iterations) in 0.04 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 787 
+Solution count 1: 787
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -16243,7 +16243,7 @@ Cutting planes:
 Explored 1 nodes (111 simplex iterations) in 0.04 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 787 
+Solution count 1: 787
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -16283,7 +16283,7 @@ Cutting planes:
 Explored 1 nodes (111 simplex iterations) in 0.04 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 787 
+Solution count 1: 787
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -16323,7 +16323,7 @@ Cutting planes:
 Explored 1 nodes (111 simplex iterations) in 0.04 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 787 
+Solution count 1: 787
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.870000000000e+02, best bound 7.870000000000e+02, gap 0.0000%
@@ -16367,7 +16367,7 @@ Cutting planes:
 Explored 1 nodes (501 simplex iterations) in 0.27 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 2044 
+Solution count 1: 2044
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.044000000000e+03, best bound 2.044000000000e+03, gap 0.0000%
@@ -16409,7 +16409,7 @@ Cutting planes:
 Explored 1 nodes (501 simplex iterations) in 0.26 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 2044 
+Solution count 1: 2044
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.044000000000e+03, best bound 2.044000000000e+03, gap 0.0000%
@@ -16451,7 +16451,7 @@ Cutting planes:
 Explored 1 nodes (501 simplex iterations) in 0.26 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 2044 
+Solution count 1: 2044
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.044000000000e+03, best bound 2.044000000000e+03, gap 0.0000%
@@ -16493,7 +16493,7 @@ Cutting planes:
 Explored 1 nodes (501 simplex iterations) in 0.27 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 2044 
+Solution count 1: 2044
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.044000000000e+03, best bound 2.044000000000e+03, gap 0.0000%
@@ -16535,7 +16535,7 @@ Cutting planes:
 Explored 1 nodes (501 simplex iterations) in 0.27 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 2044 
+Solution count 1: 2044
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.044000000000e+03, best bound 2.044000000000e+03, gap 0.0000%
@@ -16580,7 +16580,7 @@ Cutting planes:
 Explored 1 nodes (397 simplex iterations) in 0.30 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 1875 
+Solution count 1: 1875
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.875000000000e+03, best bound 1.875000000000e+03, gap 0.0000%
@@ -16623,7 +16623,7 @@ Cutting planes:
 Explored 1 nodes (397 simplex iterations) in 0.29 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 1875 
+Solution count 1: 1875
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.875000000000e+03, best bound 1.875000000000e+03, gap 0.0000%
@@ -16666,7 +16666,7 @@ Cutting planes:
 Explored 1 nodes (397 simplex iterations) in 0.29 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 1875 
+Solution count 1: 1875
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.875000000000e+03, best bound 1.875000000000e+03, gap 0.0000%
@@ -16709,7 +16709,7 @@ Cutting planes:
 Explored 1 nodes (397 simplex iterations) in 0.29 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 1875 
+Solution count 1: 1875
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.875000000000e+03, best bound 1.875000000000e+03, gap 0.0000%
@@ -16752,7 +16752,7 @@ Cutting planes:
 Explored 1 nodes (397 simplex iterations) in 0.30 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 1875 
+Solution count 1: 1875
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.875000000000e+03, best bound 1.875000000000e+03, gap 0.0000%
@@ -16797,7 +16797,7 @@ Cutting planes:
 Explored 1 nodes (604 simplex iterations) in 0.57 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 1773 
+Solution count 1: 1773
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -16840,7 +16840,7 @@ Cutting planes:
 Explored 1 nodes (604 simplex iterations) in 0.57 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 1773 
+Solution count 1: 1773
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -16883,7 +16883,7 @@ Cutting planes:
 Explored 1 nodes (604 simplex iterations) in 0.56 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 1773 
+Solution count 1: 1773
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -16926,7 +16926,7 @@ Cutting planes:
 Explored 1 nodes (604 simplex iterations) in 0.56 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 1773 
+Solution count 1: 1773
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -16969,7 +16969,7 @@ Cutting planes:
 Explored 1 nodes (604 simplex iterations) in 0.56 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 1773 
+Solution count 1: 1773
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -17012,7 +17012,7 @@ Cutting planes:
 Explored 1 nodes (722 simplex iterations) in 0.69 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 3398 
+Solution count 1: 3398
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -17053,7 +17053,7 @@ Cutting planes:
 Explored 1 nodes (722 simplex iterations) in 0.69 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 3398 
+Solution count 1: 3398
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -17094,7 +17094,7 @@ Cutting planes:
 Explored 1 nodes (722 simplex iterations) in 0.69 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 3398 
+Solution count 1: 3398
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -17135,7 +17135,7 @@ Cutting planes:
 Explored 1 nodes (722 simplex iterations) in 0.68 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 3398 
+Solution count 1: 3398
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -17176,7 +17176,7 @@ Cutting planes:
 Explored 1 nodes (722 simplex iterations) in 0.69 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 3398 
+Solution count 1: 3398
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -17231,7 +17231,7 @@ Cutting planes:
 Explored 23 nodes (3262 simplex iterations) in 10.89 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 7736 
+Solution count 1: 7736
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.736000000000e+03, best bound 7.736000000000e+03, gap 0.0000%
@@ -17284,7 +17284,7 @@ Cutting planes:
 Explored 23 nodes (3262 simplex iterations) in 10.80 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 7736 
+Solution count 1: 7736
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.736000000000e+03, best bound 7.736000000000e+03, gap 0.0000%
@@ -17337,7 +17337,7 @@ Cutting planes:
 Explored 23 nodes (3262 simplex iterations) in 10.68 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 7736 
+Solution count 1: 7736
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.736000000000e+03, best bound 7.736000000000e+03, gap 0.0000%
@@ -17390,7 +17390,7 @@ Cutting planes:
 Explored 23 nodes (3262 simplex iterations) in 10.57 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 7736 
+Solution count 1: 7736
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.736000000000e+03, best bound 7.736000000000e+03, gap 0.0000%
@@ -17443,7 +17443,7 @@ Cutting planes:
 Explored 23 nodes (3262 simplex iterations) in 10.43 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 1: 7736 
+Solution count 1: 7736
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.736000000000e+03, best bound 7.736000000000e+03, gap 0.0000%
@@ -17856,7 +17856,7 @@ Cutting planes:
 Explored 1 nodes (43 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 193 192 169 41 
+Solution count 4: 193 192 169 41
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -17896,7 +17896,7 @@ Cutting planes:
 Explored 1 nodes (43 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 193 192 169 41 
+Solution count 4: 193 192 169 41
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -17936,7 +17936,7 @@ Cutting planes:
 Explored 1 nodes (43 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 193 192 169 41 
+Solution count 4: 193 192 169 41
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -17976,7 +17976,7 @@ Cutting planes:
 Explored 1 nodes (43 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 193 192 169 41 
+Solution count 4: 193 192 169 41
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -18016,7 +18016,7 @@ Cutting planes:
 Explored 1 nodes (43 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 193 192 169 41 
+Solution count 4: 193 192 169 41
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.930000000000e+02, best bound 1.930000000000e+02, gap 0.0000%
@@ -18056,7 +18056,7 @@ Cutting planes:
 Explored 1 nodes (36 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 330 49 
+Solution count 2: 330 49
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -18094,7 +18094,7 @@ Cutting planes:
 Explored 1 nodes (36 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 330 49 
+Solution count 2: 330 49
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -18132,7 +18132,7 @@ Cutting planes:
 Explored 1 nodes (36 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 330 49 
+Solution count 2: 330 49
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -18170,7 +18170,7 @@ Cutting planes:
 Explored 1 nodes (36 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 330 49 
+Solution count 2: 330 49
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -18208,7 +18208,7 @@ Cutting planes:
 Explored 1 nodes (36 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 330 49 
+Solution count 2: 330 49
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.300000000000e+02, best bound 3.300000000000e+02, gap 0.0000%
@@ -18252,7 +18252,7 @@ Cutting planes:
 Explored 1 nodes (33 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 260 259 206 36 
+Solution count 4: 260 259 206 36
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -18294,7 +18294,7 @@ Cutting planes:
 Explored 1 nodes (33 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 260 259 206 36 
+Solution count 4: 260 259 206 36
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -18336,7 +18336,7 @@ Cutting planes:
 Explored 1 nodes (33 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 260 259 206 36 
+Solution count 4: 260 259 206 36
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -18378,7 +18378,7 @@ Cutting planes:
 Explored 1 nodes (33 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 260 259 206 36 
+Solution count 4: 260 259 206 36
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -18420,7 +18420,7 @@ Cutting planes:
 Explored 1 nodes (33 simplex iterations) in 0.01 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 260 259 206 36 
+Solution count 4: 260 259 206 36
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.600000000000e+02, best bound 2.600000000000e+02, gap 0.0000%
@@ -18460,7 +18460,7 @@ Cutting planes:
 Explored 1 nodes (104 simplex iterations) in 0.03 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 549 533 46 
+Solution count 3: 549 533 46
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -18498,7 +18498,7 @@ Cutting planes:
 Explored 1 nodes (104 simplex iterations) in 0.03 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 549 533 46 
+Solution count 3: 549 533 46
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -18536,7 +18536,7 @@ Cutting planes:
 Explored 1 nodes (104 simplex iterations) in 0.03 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 549 533 46 
+Solution count 3: 549 533 46
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -18574,7 +18574,7 @@ Cutting planes:
 Explored 1 nodes (104 simplex iterations) in 0.03 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 549 533 46 
+Solution count 3: 549 533 46
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -18612,7 +18612,7 @@ Cutting planes:
 Explored 1 nodes (104 simplex iterations) in 0.03 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 3: 549 533 46 
+Solution count 3: 549 533 46
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.490000000000e+02, best bound 5.490000000000e+02, gap 0.0000%
@@ -18647,7 +18647,7 @@ H    0     0                     337.0000000  390.15000  15.8%     -    0s
 Explored 1 nodes (59 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 337 92 
+Solution count 2: 337 92
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -18680,7 +18680,7 @@ H    0     0                     337.0000000  390.15000  15.8%     -    0s
 Explored 1 nodes (59 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 337 92 
+Solution count 2: 337 92
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -18713,7 +18713,7 @@ H    0     0                     337.0000000  390.15000  15.8%     -    0s
 Explored 1 nodes (59 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 337 92 
+Solution count 2: 337 92
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -18746,7 +18746,7 @@ H    0     0                     337.0000000  390.15000  15.8%     -    0s
 Explored 1 nodes (59 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 337 92 
+Solution count 2: 337 92
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -18779,7 +18779,7 @@ H    0     0                     337.0000000  390.15000  15.8%     -    0s
 Explored 1 nodes (59 simplex iterations) in 0.02 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 337 92 
+Solution count 2: 337 92
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.370000000000e+02, best bound 3.370000000000e+02, gap 0.0000%
@@ -18823,7 +18823,7 @@ Cutting planes:
 Explored 1 nodes (171 simplex iterations) in 0.07 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 893 858 803 131 
+Solution count 4: 893 858 803 131
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -18865,7 +18865,7 @@ Cutting planes:
 Explored 1 nodes (171 simplex iterations) in 0.07 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 893 858 803 131 
+Solution count 4: 893 858 803 131
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -18907,7 +18907,7 @@ Cutting planes:
 Explored 1 nodes (171 simplex iterations) in 0.07 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 893 858 803 131 
+Solution count 4: 893 858 803 131
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -18949,7 +18949,7 @@ Cutting planes:
 Explored 1 nodes (171 simplex iterations) in 0.07 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 893 858 803 131 
+Solution count 4: 893 858 803 131
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -18991,7 +18991,7 @@ Cutting planes:
 Explored 1 nodes (171 simplex iterations) in 0.07 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 893 858 803 131 
+Solution count 4: 893 858 803 131
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 8.930000000000e+02, best bound 8.930000000000e+02, gap 0.0000%
@@ -19627,7 +19627,7 @@ H    0     0                    1754.0000000 1807.24157  3.04%     -    0s
 Explored 1 nodes (563 simplex iterations) in 0.82 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 1773 1754 1749 355 
+Solution count 4: 1773 1754 1749 355
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -19665,7 +19665,7 @@ H    0     0                    1754.0000000 1807.24157  3.04%     -    0s
 Explored 1 nodes (563 simplex iterations) in 0.82 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 1773 1754 1749 355 
+Solution count 4: 1773 1754 1749 355
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -19703,7 +19703,7 @@ H    0     0                    1754.0000000 1807.24157  3.04%     -    0s
 Explored 1 nodes (563 simplex iterations) in 0.81 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 1773 1754 1749 355 
+Solution count 4: 1773 1754 1749 355
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -19741,7 +19741,7 @@ H    0     0                    1754.0000000 1807.24157  3.04%     -    0s
 Explored 1 nodes (563 simplex iterations) in 0.82 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 1773 1754 1749 355 
+Solution count 4: 1773 1754 1749 355
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -19779,7 +19779,7 @@ H    0     0                    1754.0000000 1807.24157  3.04%     -    0s
 Explored 1 nodes (563 simplex iterations) in 0.81 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 1773 1754 1749 355 
+Solution count 4: 1773 1754 1749 355
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.773000000000e+03, best bound 1.773000000000e+03, gap 0.0000%
@@ -19816,7 +19816,7 @@ H    0     0                    3398.0000000 3926.53125  15.6%     -    0s
 Explored 1 nodes (786 simplex iterations) in 0.89 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 3398 3293 3024 199 
+Solution count 4: 3398 3293 3024 199
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -19851,7 +19851,7 @@ H    0     0                    3398.0000000 3926.53125  15.6%     -    0s
 Explored 1 nodes (786 simplex iterations) in 0.90 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 3398 3293 3024 199 
+Solution count 4: 3398 3293 3024 199
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -19886,7 +19886,7 @@ H    0     0                    3398.0000000 3926.53125  15.6%     -    0s
 Explored 1 nodes (786 simplex iterations) in 0.89 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 3398 3293 3024 199 
+Solution count 4: 3398 3293 3024 199
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -19921,7 +19921,7 @@ H    0     0                    3398.0000000 3926.53125  15.6%     -    0s
 Explored 1 nodes (786 simplex iterations) in 0.89 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 3398 3293 3024 199 
+Solution count 4: 3398 3293 3024 199
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -19956,7 +19956,7 @@ H    0     0                    3398.0000000 3926.53125  15.6%     -    0s
 Explored 1 nodes (786 simplex iterations) in 0.89 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 3398 3293 3024 199 
+Solution count 4: 3398 3293 3024 199
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.398000000000e+03, best bound 3.398000000000e+03, gap 0.0000%
@@ -20008,7 +20008,7 @@ Cutting planes:
 Explored 1 nodes (2663 simplex iterations) in 11.19 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 7736 7401 4099 795 
+Solution count 4: 7736 7401 4099 795
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.736000000000e+03, best bound 7.736000000000e+03, gap 0.0000%
@@ -20058,7 +20058,7 @@ Cutting planes:
 Explored 1 nodes (2663 simplex iterations) in 11.00 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 7736 7401 4099 795 
+Solution count 4: 7736 7401 4099 795
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.736000000000e+03, best bound 7.736000000000e+03, gap 0.0000%
@@ -20108,7 +20108,7 @@ Cutting planes:
 Explored 1 nodes (2663 simplex iterations) in 10.99 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 7736 7401 4099 795 
+Solution count 4: 7736 7401 4099 795
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.736000000000e+03, best bound 7.736000000000e+03, gap 0.0000%
@@ -20158,7 +20158,7 @@ Cutting planes:
 Explored 1 nodes (2663 simplex iterations) in 11.00 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 7736 7401 4099 795 
+Solution count 4: 7736 7401 4099 795
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.736000000000e+03, best bound 7.736000000000e+03, gap 0.0000%
@@ -20208,7 +20208,7 @@ Cutting planes:
 Explored 1 nodes (2663 simplex iterations) in 11.00 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 7736 7401 4099 795 
+Solution count 4: 7736 7401 4099 795
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.736000000000e+03, best bound 7.736000000000e+03, gap 0.0000%
@@ -20508,7 +20508,7 @@ Solution count 5: 22929 22751 22687 ... 616
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.292900000000e+04, best bound 2.292900000000e+04, gap 0.0000%
 valor encontrado: 22929	avg_time: 75.385
-Com Heuristica e 0.05 de heuristics presolve 1
+Com Heuristica e 0.00 de heuristics presolve 1
 200
 Academic license - for non-commercial use only
 Optimize a model with 39801 rows, 20100 columns and 119600 nonzeros
@@ -20565,7 +20565,7 @@ Cutting planes:
 Explored 1 nodes (9472 simplex iterations) in 29.69 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 22929 22524 
+Solution count 2: 22929 22524
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.292900000000e+04, best bound 2.292900000000e+04, gap 0.0000%
@@ -20624,7 +20624,7 @@ Cutting planes:
 Explored 1 nodes (9472 simplex iterations) in 29.94 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 22929 22524 
+Solution count 2: 22929 22524
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.292900000000e+04, best bound 2.292900000000e+04, gap 0.0000%
@@ -20683,7 +20683,7 @@ Cutting planes:
 Explored 1 nodes (9472 simplex iterations) in 29.30 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 22929 22524 
+Solution count 2: 22929 22524
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.292900000000e+04, best bound 2.292900000000e+04, gap 0.0000%
@@ -20742,7 +20742,7 @@ Cutting planes:
 Explored 1 nodes (9472 simplex iterations) in 30.67 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 22929 22524 
+Solution count 2: 22929 22524
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.292900000000e+04, best bound 2.292900000000e+04, gap 0.0000%
@@ -20801,7 +20801,7 @@ Cutting planes:
 Explored 1 nodes (9472 simplex iterations) in 32.48 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 22929 22524 
+Solution count 2: 22929 22524
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.292900000000e+04, best bound 2.292900000000e+04, gap 0.0000%
@@ -20901,7 +20901,7 @@ Cutting planes:
 Explored 48 nodes (14380 simplex iterations) in 100.56 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 37710 37666 37623 37483 
+Solution count 4: 37710 37666 37623 37483
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.771000000000e+04, best bound 3.771000000000e+04, gap 0.0000%
@@ -20999,7 +20999,7 @@ Cutting planes:
 Explored 48 nodes (14380 simplex iterations) in 97.86 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 37710 37666 37623 37483 
+Solution count 4: 37710 37666 37623 37483
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.771000000000e+04, best bound 3.771000000000e+04, gap 0.0000%
@@ -21097,7 +21097,7 @@ Cutting planes:
 Explored 48 nodes (14380 simplex iterations) in 91.12 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 37710 37666 37623 37483 
+Solution count 4: 37710 37666 37623 37483
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.771000000000e+04, best bound 3.771000000000e+04, gap 0.0000%
@@ -21195,7 +21195,7 @@ Cutting planes:
 Explored 48 nodes (14380 simplex iterations) in 105.35 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 37710 37666 37623 37483 
+Solution count 4: 37710 37666 37623 37483
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.771000000000e+04, best bound 3.771000000000e+04, gap 0.0000%
@@ -21294,7 +21294,7 @@ Cutting planes:
 Explored 48 nodes (14380 simplex iterations) in 100.42 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 37710 37666 37623 37483 
+Solution count 4: 37710 37666 37623 37483
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.771000000000e+04, best bound 3.771000000000e+04, gap 0.0000%
@@ -21368,7 +21368,7 @@ Cutting planes:
 Explored 1 nodes (21877 simplex iterations) in 243.13 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 64009 63702 
+Solution count 2: 64009 63702
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 6.400900000000e+04, best bound 6.400900000000e+04, gap 0.0000%
@@ -21440,7 +21440,7 @@ Cutting planes:
 Explored 1 nodes (21877 simplex iterations) in 219.85 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 64009 63702 
+Solution count 2: 64009 63702
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 6.400900000000e+04, best bound 6.400900000000e+04, gap 0.0000%
@@ -21512,7 +21512,7 @@ Cutting planes:
 Explored 1 nodes (21877 simplex iterations) in 219.63 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 64009 63702 
+Solution count 2: 64009 63702
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 6.400900000000e+04, best bound 6.400900000000e+04, gap 0.0000%
@@ -21583,7 +21583,7 @@ Cutting planes:
 Explored 1 nodes (21877 simplex iterations) in 223.85 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 64009 63702 
+Solution count 2: 64009 63702
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 6.400900000000e+04, best bound 6.400900000000e+04, gap 0.0000%
@@ -21655,7 +21655,7 @@ Cutting planes:
 Explored 1 nodes (21877 simplex iterations) in 218.29 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 64009 63702 
+Solution count 2: 64009 63702
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 6.400900000000e+04, best bound 6.400900000000e+04, gap 0.0000%
@@ -21730,7 +21730,7 @@ Cutting planes:
 Explored 1 nodes (55680 simplex iterations) in 668.74 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 127550 126865 
+Solution count 2: 127550 126865
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.275500000000e+05, best bound 1.275500000000e+05, gap 0.0000%
@@ -21803,7 +21803,7 @@ Cutting planes:
 Explored 1 nodes (55680 simplex iterations) in 661.56 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 127550 126865 
+Solution count 2: 127550 126865
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.275500000000e+05, best bound 1.275500000000e+05, gap 0.0000%
@@ -21876,7 +21876,7 @@ Cutting planes:
 Explored 1 nodes (55680 simplex iterations) in 645.41 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 127550 126865 
+Solution count 2: 127550 126865
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.275500000000e+05, best bound 1.275500000000e+05, gap 0.0000%
@@ -21950,7 +21950,7 @@ Cutting planes:
 Explored 1 nodes (55680 simplex iterations) in 719.29 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 127550 126865 
+Solution count 2: 127550 126865
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.275500000000e+05, best bound 1.275500000000e+05, gap 0.0000%
@@ -22023,7 +22023,7 @@ Cutting planes:
 Explored 1 nodes (55680 simplex iterations) in 705.90 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 127550 126865 
+Solution count 2: 127550 126865
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.275500000000e+05, best bound 1.275500000000e+05, gap 0.0000%
@@ -22087,7 +22087,7 @@ Cutting planes:
 Explored 1 nodes (35217 simplex iterations) in 423.45 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 96189 95727 
+Solution count 2: 96189 95727
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 9.618900000000e+04, best bound 9.618900000000e+04, gap 0.0000%
@@ -22151,7 +22151,7 @@ Cutting planes:
 Explored 1 nodes (35217 simplex iterations) in 436.84 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 96189 95727 
+Solution count 2: 96189 95727
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 9.618900000000e+04, best bound 9.618900000000e+04, gap 0.0000%
@@ -22215,7 +22215,7 @@ Cutting planes:
 Explored 1 nodes (35217 simplex iterations) in 429.51 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 96189 95727 
+Solution count 2: 96189 95727
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 9.618900000000e+04, best bound 9.618900000000e+04, gap 0.0000%
@@ -22279,7 +22279,7 @@ Cutting planes:
 Explored 1 nodes (35217 simplex iterations) in 432.11 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 96189 95727 
+Solution count 2: 96189 95727
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 9.618900000000e+04, best bound 9.618900000000e+04, gap 0.0000%
@@ -22342,12 +22342,12 @@ Cutting planes:
 Explored 1 nodes (35217 simplex iterations) in 436.44 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 2: 96189 95727 
+Solution count 2: 96189 95727
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 9.618900000000e+04, best bound 9.618900000000e+04, gap 0.0000%
 valor encontrado: 96189	avg_time: 506.423
-Sem Heuristica e 0.05 de heuristics presolve 1
+Sem Heuristica e 0.00 de heuristics presolve 1
 200
 Academic license - for non-commercial use only
 Optimize a model with 39801 rows, 20100 columns and 119600 nonzeros
@@ -22407,7 +22407,7 @@ Cutting planes:
 Explored 73 nodes (11474 simplex iterations) in 45.70 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 22929 22771 22757 22089 
+Solution count 4: 22929 22771 22757 22089
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.292900000000e+04, best bound 2.292900000000e+04, gap 0.0000%
@@ -22469,7 +22469,7 @@ Cutting planes:
 Explored 73 nodes (11474 simplex iterations) in 46.76 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 22929 22771 22757 22089 
+Solution count 4: 22929 22771 22757 22089
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.292900000000e+04, best bound 2.292900000000e+04, gap 0.0000%
@@ -22531,7 +22531,7 @@ Cutting planes:
 Explored 73 nodes (11474 simplex iterations) in 50.28 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 22929 22771 22757 22089 
+Solution count 4: 22929 22771 22757 22089
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.292900000000e+04, best bound 2.292900000000e+04, gap 0.0000%
@@ -22592,7 +22592,7 @@ Cutting planes:
 Explored 73 nodes (11474 simplex iterations) in 44.88 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 22929 22771 22757 22089 
+Solution count 4: 22929 22771 22757 22089
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.292900000000e+04, best bound 2.292900000000e+04, gap 0.0000%
@@ -22654,7 +22654,7 @@ Cutting planes:
 Explored 73 nodes (11474 simplex iterations) in 45.51 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 22929 22771 22757 22089 
+Solution count 4: 22929 22771 22757 22089
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.292900000000e+04, best bound 2.292900000000e+04, gap 0.0000%
@@ -22736,7 +22736,7 @@ Cutting planes:
 Explored 186 nodes (26196 simplex iterations) in 179.13 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 37710 37602 37600 36622 
+Solution count 4: 37710 37602 37600 36622
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.771000000000e+04, best bound 3.771000000000e+04, gap 0.0000%
@@ -22816,7 +22816,7 @@ Cutting planes:
 Explored 186 nodes (26196 simplex iterations) in 175.46 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 37710 37602 37600 36622 
+Solution count 4: 37710 37602 37600 36622
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.771000000000e+04, best bound 3.771000000000e+04, gap 0.0000%
@@ -22897,7 +22897,7 @@ Cutting planes:
 Explored 186 nodes (26196 simplex iterations) in 183.44 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 37710 37602 37600 36622 
+Solution count 4: 37710 37602 37600 36622
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.771000000000e+04, best bound 3.771000000000e+04, gap 0.0000%
@@ -22977,7 +22977,7 @@ Cutting planes:
 Explored 186 nodes (26196 simplex iterations) in 175.85 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 37710 37602 37600 36622 
+Solution count 4: 37710 37602 37600 36622
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.771000000000e+04, best bound 3.771000000000e+04, gap 0.0000%
@@ -23057,7 +23057,7 @@ Cutting planes:
 Explored 186 nodes (26196 simplex iterations) in 166.71 seconds
 Thread count was 4 (of 4 available processors)
 
-Solution count 4: 37710 37602 37600 36622 
+Solution count 4: 37710 37602 37600 36622
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.771000000000e+04, best bound 3.771000000000e+04, gap 0.0000%
