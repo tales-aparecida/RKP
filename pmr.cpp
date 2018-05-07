@@ -19,115 +19,111 @@ int main(int argc, char *argv[])
 	// Variables to be obtained from parameters
 	int    exec    = 0;      // 0: not set, 1: e, 2: h
 	int    maxTime = 0;      // 0: not set
-   bool verbose   = false;
-   string inputFile_name;   // Input test file
-   string outputFile_name;  // Output sol file
+   	bool verbose   = false;
+   	string inputFile_name;   // Input test file
+   	string outputFile_name;  // Output sol file
 
 	// Reading program arguments
-   for(int i = 1; i < argc; i++){
-      const string arg(argv[i]);
-      string next;
-      if((i+1) < argc){
-         next = string(argv[i+1]);
-		}
-      else{
-         next = string("");
+   	for(int i = 1; i < argc; i++){
+      	const string arg(argv[i]);
+      	string next;
+      	if((i+1) < argc){
+         	next = string(argv[i+1]);
+		} else {
+         	next = string("");
 		}
 
-      if( exec != 0 && (arg.find("-k") == 0 || arg.find("-a") == 0 ) ){
-         cout << "Erro ao ler parametro \"" << arg << "\", somente pode haver um parametro de modo de execucao." << endl;
-         showUsage();
-         exit(1);
-      }
-      else if( arg.find("-e") == 0 ){
-         exec = 1;
-      }
-      else if( arg.find("-h") == 0 ){
-         exec = 2;
-      }
-      else if( arg.find("-g") == 0 ){
-         exec = 3;
-      }
-      else if( arg.find("-v") == 0 ){
-        verbose = true;
-      }
-      else if( arg.find("-t") == 0 && next.size() > 0){
-         maxTime = atoi(next.c_str()); i++; continue;
-      }
-      else if( arg.find("-i") == 0 && next.size() > 0){
-         inputFile_name = next; i++; continue;
-      }
-      else if( arg.find("-o") == 0 && next.size() > 0){
-         outputFile_name = next; i++; continue;
-      }
-      else{
-         cout << "Parametro invalido: \"" << arg << "\"" << " (ou faltando argumento)" << endl;
-         showUsage();
-         exit(1);
-      }
-   }
+      	if( exec != 0 && (arg.find("-k") == 0 || arg.find("-a") == 0 ) ){
+         	cout << "Erro ao ler parametro \"" << arg << "\", somente pode haver um parametro de modo de execucao." << endl;
+         	showUsage();
+         	exit(1);
+      	}
+      	else if( arg.find("-e") == 0 ){
+         	exec = 1;
+      	}
+      	else if( arg.find("-h") == 0 ){
+         	exec = 2;
+      	}
+      	else if( arg.find("-g") == 0 ){
+         	exec = 3;
+      	}
+      	else if( arg.find("-v") == 0 ){
+        	verbose = true;
+      	}
+      	else if( arg.find("-t") == 0 && next.size() > 0){
+         	maxTime = atoi(next.c_str()); i++; continue;
+      	}
+      	else if( arg.find("-i") == 0 && next.size() > 0){
+         	inputFile_name = next; i++; continue;
+      	}
+      	else if( arg.find("-o") == 0 && next.size() > 0){
+         	outputFile_name = next; i++; continue;
+      	}
+      	else{
+         	cout << "Parametro invalido: \"" << arg << "\"" << " (ou faltando argumento)" << endl;
+         	showUsage();
+         	exit(1);
+      	}
+   	}
 
    // Required parameters
-   if( exec == 0 || exec > 3){
-      cout << "Nenhum modo de execucao selecionado dentre: -e ou -h" << endl;
-      showUsage();
+   	if( exec == 0 || exec > 3){
+      	cout << "Nenhum modo de execucao selecionado dentre: -e ou -h" << endl;
+      	showUsage();
 		exit(1);
-   }
+   	}
 
-   if( inputFile_name.size() < 1 ){
-      cout << ((inputFile_name.size() < 1)? "nome do arq, ":"")
-			  << endl;
-      showUsage();
+   	if( inputFile_name.size() < 1 ){
+      	cout << ((inputFile_name.size() < 1)? "nome do arq, ":"") << endl;
+      	showUsage();
 		exit(1);
-   }
+   	}
 
-   if( maxTime == 0 ){
+   	if( maxTime == 0 ){
 		maxTime = 60;  // Default of 60s = 1m
-   }
+   	}
 
-	// int seed=1;     // mhmulati
-	// srand48(seed);  // mhmulati
 
-	// Variables that represent the input of the problem
-	int capacity;
-	int quantItens;
-	vector<int> s;	//sizes
-    	vector<int> v;	//values
-	matriz relation;
+	double avg_time = 0, run_count=5.0;
+	int OptimalSolution = 0;
+	for (int i=0; i < run_count; i++) {
+		// Variables that represent the input of the problem
+		int capacity;
+		int quantItens;
+		vector<int> s;	//sizes
+	    vector<int> v;	//values
+		matriz relation;
+		read_input(inputFile_name, &capacity, &quantItens, s, v, relation);
+		// show_input(capacity, quantItens, s, v, relation, exec);
+		vector<int> itensMochila(quantItens);
+	   	double elapsed_time = numeric_limits<double>::max();
+	   	clock_t before = clock();
 
-	read_input(inputFile_name, &capacity, &quantItens, s, v, relation);
 
-	vector<int> itensMochila(quantItens);
-
-	show_input(capacity, quantItens, s, v, relation, exec);
-
-   double elapsed_time = numeric_limits<double>::max();
-   clock_t before = clock();
-   int OptimalSolution = 0;
-
-	switch(exec){
-		case 1:{
-			OptimalSolution = algE(capacity, quantItens, s, v, relation, itensMochila, maxTime);
-			break;
+		switch(exec){
+			case 1:{
+				OptimalSolution = algE(capacity, quantItens, s, v, relation, itensMochila, maxTime);
+				break;
+			}
+			case 2:{
+				OptimalSolution = algH(capacity, quantItens, s, v, relation, itensMochila, maxTime);
+				break;
+			}
+			case 3:{
+				OptimalSolution = algExato(capacity, quantItens, s, v, relation, itensMochila, maxTime);
+				break;
+			}
 		}
-		case 2:{
-			OptimalSolution = algH(capacity, quantItens, s, v, relation, itensMochila, maxTime);
-			break;
-		}
-		case 3:{
-			OptimalSolution = algExato(capacity, quantItens, s, v, relation, itensMochila, maxTime);
-			break;
-		}
+
+		clock_t after = clock();
+		elapsed_time = (double) (after-before) / CLOCKS_PER_SEC;
+		avg_time += elapsed_time;
+
+		// Verificar se é de fato uma solução para a instância
+		if( !is_feasible_solution(OptimalSolution, itensMochila, capacity, quantItens, s, v, relation))
+		    cout << "Infeasible solution" << endl;
 	}
-
-	cout << "valor encontrado: "<< OptimalSolution << endl;
-   clock_t after = clock();
-   elapsed_time = (double) (after-before) / CLOCKS_PER_SEC;
-    cout << elapsed_time << endl;
-
-	// Verificar se é de fato uma solução para a instância
-	if( !is_feasible_solution(OptimalSolution, itensMochila, capacity, quantItens, s, v, relation))
-	    cout << "Infeasible solution" << endl;
+	cout << "valor encontrado: "<< OptimalSolution << "\t" << "avg_time: " << avg_time / run_count << endl;
 
 	return 0;
 }
@@ -204,6 +200,6 @@ bool is_feasible_solution(int valueOpt, vector<int> itensMochila, int C, int n, 
 		cout << weight << " " << val << endl;
 		return false;
 	}
-	cout << "Feasible solution" << endl;
+	// cout << "Feasible solution" << endl;
 	return true;
 }

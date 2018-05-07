@@ -1,71 +1,250 @@
-./pmr -i testes/teste01.txt -o testes/teste01_5.out -e -t 5
-./pmr -i testes/teste02.txt -o testes/teste02_5.out -e -t 5
-./pmr -i testes/teste03.txt -o testes/teste03_5.out -e -t 5
-./pmr -i testes/teste04.txt -o testes/teste04_5.out -e -t 5
-./pmr -i testes/teste05.txt -o testes/teste05_5.out -e -t 5
-./pmr -i testes/teste06.txt -o testes/teste06_5.out -e -t 5
-./pmr -i testes/teste07.txt -o testes/teste07_5.out -e -t 5
-./pmr -i testes/teste08.txt -o testes/teste08_5.out -e -t 5
-./pmr -i testes/teste09.txt -o testes/teste09_5.out -e -t 5
-./pmr -i testes/teste10.txt -o testes/teste10_5.out -e -t 5
-./pmr -i testes/teste11.txt -o testes/teste11_5.out -e -t 5
-./pmr -i testes/teste12.txt -o testes/teste12_5.out -e -t 5
-./pmr -i testes/teste200.txt -o testes/teste200_5.out -e -t 5
-./pmr -i testes/teste300.txt -o testes/teste300_5.out -e -t 5
-./pmr -i testes/teste400.txt -o testes/teste400_5.out -e -t 5
-./pmr -i testes/teste500.txt -o testes/teste500_5.out -e -t 5
-./pmr -i testes/teste600.txt -o testes/teste600_5.out -e -t 5
+echo "Com Heuristica e 0.05 de heuristics presolve 1"
+echo 01
+./pmr_h_000_presolve_1 -i testes/teste01.txt -o testes/teste01_6000.out -g -t 6000
+echo 02
+./pmr_h_000_presolve_1 -i testes/teste02.txt -o testes/teste02_6000.out -g -t 6000
+echo 03
+./pmr_h_000_presolve_1 -i testes/teste03.txt -o testes/teste03_6000.out -g -t 6000
+echo 04
+./pmr_h_000_presolve_1 -i testes/teste04.txt -o testes/teste04_6000.out -g -t 6000
+echo 05
+./pmr_h_000_presolve_1 -i testes/teste05.txt -o testes/teste05_6000.out -g -t 6000
+echo 06
+./pmr_h_000_presolve_1 -i testes/teste06.txt -o testes/teste06_6000.out -g -t 6000
+echo 07
+./pmr_h_000_presolve_1 -i testes/teste07.txt -o testes/teste07_6000.out -g -t 6000
+echo 08
+./pmr_h_000_presolve_1 -i testes/teste08.txt -o testes/teste08_6000.out -g -t 6000
+echo 09
+./pmr_h_000_presolve_1 -i testes/teste09.txt -o testes/teste09_6000.out -g -t 6000
+echo 10
+./pmr_h_000_presolve_1 -i testes/teste10.txt -o testes/teste10_6000.out -g -t 6000
+echo 11
+./pmr_h_000_presolve_1 -i testes/teste11.txt -o testes/teste11_6000.out -g -t 6000
+echo 12
+./pmr_h_000_presolve_1 -i testes/teste12.txt -o testes/teste12_6000.out -g -t 6000
+echo 200
+./pmr_h_000_presolve_1 -i testes/teste200.txt -o testes/teste12_6000.out -g -t 6000
 
-./pmr -i testes/teste01.txt -o testes/teste01_10.out -e -t 10
-./pmr -i testes/teste02.txt -o testes/teste02_10.out -e -t 10
-./pmr -i testes/teste03.txt -o testes/teste03_10.out -e -t 10
-./pmr -i testes/teste04.txt -o testes/teste04_10.out -e -t 10
-./pmr -i testes/teste05.txt -o testes/teste05_10.out -e -t 10
-./pmr -i testes/teste06.txt -o testes/teste06_10.out -e -t 10
-./pmr -i testes/teste07.txt -o testes/teste07_10.out -e -t 10
-./pmr -i testes/teste08.txt -o testes/teste08_10.out -e -t 10
-./pmr -i testes/teste09.txt -o testes/teste09_10.out -e -t 10
-./pmr -i testes/teste10.txt -o testes/teste10_10.out -e -t 10
-./pmr -i testes/teste11.txt -o testes/teste11_10.out -e -t 10
-./pmr -i testes/teste12.txt -o testes/teste12_10.out -e -t 10
-./pmr -i testes/teste200.txt -o testes/teste200_10.out -e -t 10
-./pmr -i testes/teste300.txt -o testes/teste300_10.out -e -t 10
-./pmr -i testes/teste400.txt -o testes/teste400_10.out -e -t 10
-./pmr -i testes/teste500.txt -o testes/teste500_10.out -e -t 10
-./pmr -i testes/teste600.txt -o testes/teste600_10.out -e -t 10
+echo "Com Heuristica e 0.05 de heuristics presolve 1"
+echo 01
+./pmr_h_005_presolve_1 -i testes/teste01.txt -o testes/teste01_6000.out -g -t 6000
+echo 02
+./pmr_h_005_presolve_1 -i testes/teste02.txt -o testes/teste02_6000.out -g -t 6000
+echo 03
+./pmr_h_005_presolve_1 -i testes/teste03.txt -o testes/teste03_6000.out -g -t 6000
+echo 04
+./pmr_h_005_presolve_1 -i testes/teste04.txt -o testes/teste04_6000.out -g -t 6000
+echo 05
+./pmr_h_005_presolve_1 -i testes/teste05.txt -o testes/teste05_6000.out -g -t 6000
+echo 06
+./pmr_h_005_presolve_1 -i testes/teste06.txt -o testes/teste06_6000.out -g -t 6000
+echo 07
+./pmr_h_005_presolve_1 -i testes/teste07.txt -o testes/teste07_6000.out -g -t 6000
+echo 08
+./pmr_h_005_presolve_1 -i testes/teste08.txt -o testes/teste08_6000.out -g -t 6000
+echo 09
+./pmr_h_005_presolve_1 -i testes/teste09.txt -o testes/teste09_6000.out -g -t 6000
+echo 10
+./pmr_h_005_presolve_1 -i testes/teste10.txt -o testes/teste10_6000.out -g -t 6000
+echo 11
+./pmr_h_005_presolve_1 -i testes/teste11.txt -o testes/teste11_6000.out -g -t 6000
+echo 12
+./pmr_h_005_presolve_1 -i testes/teste12.txt -o testes/teste12_6000.out -g -t 6000
+echo 200
+./pmr_h_005_presolve_1 -i testes/teste200.txt -o testes/teste200_6000.out -g -t 6000
 
-./pmr -i testes/teste01.txt -o testes/teste01_60.out -e -t 60
-./pmr -i testes/teste02.txt -o testes/teste02_60.out -e -t 60
-./pmr -i testes/teste03.txt -o testes/teste03_60.out -e -t 60
-./pmr -i testes/teste04.txt -o testes/teste04_60.out -e -t 60
-./pmr -i testes/teste05.txt -o testes/teste05_60.out -e -t 60
-./pmr -i testes/teste06.txt -o testes/teste06_60.out -e -t 60
-./pmr -i testes/teste07.txt -o testes/teste07_60.out -e -t 60
-./pmr -i testes/teste08.txt -o testes/teste08_60.out -e -t 60
-./pmr -i testes/teste09.txt -o testes/teste09_60.out -e -t 60
-./pmr -i testes/teste10.txt -o testes/teste10_60.out -e -t 60
-./pmr -i testes/teste11.txt -o testes/teste11_60.out -e -t 60
-./pmr -i testes/teste12.txt -o testes/teste12_60.out -e -t 60
-./pmr -i testes/teste200.txt -o testes/teste200_60.out -e -t 60
-./pmr -i testes/teste300.txt -o testes/teste300_60.out -e -t 60
-./pmr -i testes/teste400.txt -o testes/teste400_60.out -e -t 60
-./pmr -i testes/teste500.txt -o testes/teste500_60.out -e -t 60
-./pmr -i testes/teste600.txt -o testes/teste600_60.out -e -t 60
+echo "Com Heuristica e 0.00 de heuristics presolve 2"
+echo 01
+./pmr_h_000_presolve_2 -i testes/teste01.txt -o testes/teste01_6000.out -g -t 6000
+echo 02
+./pmr_h_000_presolve_2 -i testes/teste02.txt -o testes/teste02_6000.out -g -t 6000
+echo 03
+./pmr_h_000_presolve_2 -i testes/teste03.txt -o testes/teste03_6000.out -g -t 6000
+echo 04
+./pmr_h_000_presolve_2 -i testes/teste04.txt -o testes/teste04_6000.out -g -t 6000
+echo 05
+./pmr_h_000_presolve_2 -i testes/teste05.txt -o testes/teste05_6000.out -g -t 6000
+echo 06
+./pmr_h_000_presolve_2 -i testes/teste06.txt -o testes/teste06_6000.out -g -t 6000
+echo 07
+./pmr_h_000_presolve_2 -i testes/teste07.txt -o testes/teste07_6000.out -g -t 6000
+echo 08
+./pmr_h_000_presolve_2 -i testes/teste08.txt -o testes/teste08_6000.out -g -t 6000
+echo 09
+./pmr_h_000_presolve_2 -i testes/teste09.txt -o testes/teste09_6000.out -g -t 6000
+echo 10
+./pmr_h_000_presolve_2 -i testes/teste10.txt -o testes/teste10_6000.out -g -t 6000
+echo 11
+./pmr_h_000_presolve_2 -i testes/teste11.txt -o testes/teste11_6000.out -g -t 6000
+echo 12
+./pmr_h_000_presolve_2 -i testes/teste12.txt -o testes/teste12_6000.out -g -t 6000
+echo 200
+./pmr_h_000_presolve_2 -i testes/teste200.txt -o testes/teste200_6000.out -g -t 6000
 
-./pmr -i testes/teste01.txt -o testes/teste01_600.out -e -t 600
-./pmr -i testes/teste02.txt -o testes/teste02_600.out -e -t 600
-./pmr -i testes/teste03.txt -o testes/teste03_600.out -e -t 600
-./pmr -i testes/teste04.txt -o testes/teste04_600.out -e -t 600
-./pmr -i testes/teste05.txt -o testes/teste05_600.out -e -t 600
-./pmr -i testes/teste06.txt -o testes/teste06_600.out -e -t 600
-./pmr -i testes/teste07.txt -o testes/teste07_600.out -e -t 600
-./pmr -i testes/teste08.txt -o testes/teste08_600.out -e -t 600
-./pmr -i testes/teste09.txt -o testes/teste09_600.out -e -t 600
-./pmr -i testes/teste10.txt -o testes/teste10_600.out -e -t 600
-./pmr -i testes/teste11.txt -o testes/teste11_600.out -e -t 600
-./pmr -i testes/teste12.txt -o testes/teste12_600.out -e -t 600
-./pmr -i testes/teste200.txt -o testes/teste200_600.out -e -t 600
-./pmr -i testes/teste300.txt -o testes/teste300_600.out -e -t 600
-./pmr -i testes/teste400.txt -o testes/teste400_600.out -e -t 600
-./pmr -i testes/teste500.txt -o testes/teste500_600.out -e -t 600
-./pmr -i testes/teste600.txt -o testes/teste600_600.out -e -t 600
+echo "Com Heuristica e 0.05 de heuristics presolve 2"
+echo 01
+./pmr_h_005_presolve_2 -i testes/teste01.txt -o testes/teste01_6000.out -g -t 6000
+echo 02
+./pmr_h_005_presolve_2 -i testes/teste02.txt -o testes/teste02_6000.out -g -t 6000
+echo 03
+./pmr_h_005_presolve_2 -i testes/teste03.txt -o testes/teste03_6000.out -g -t 6000
+echo 04
+./pmr_h_005_presolve_2 -i testes/teste04.txt -o testes/teste04_6000.out -g -t 6000
+echo 05
+./pmr_h_005_presolve_2 -i testes/teste05.txt -o testes/teste05_6000.out -g -t 6000
+echo 06
+./pmr_h_005_presolve_2 -i testes/teste06.txt -o testes/teste06_6000.out -g -t 6000
+echo 07
+./pmr_h_005_presolve_2 -i testes/teste07.txt -o testes/teste07_6000.out -g -t 6000
+echo 08
+./pmr_h_005_presolve_2 -i testes/teste08.txt -o testes/teste08_6000.out -g -t 6000
+echo 09
+./pmr_h_005_presolve_2 -i testes/teste09.txt -o testes/teste09_6000.out -g -t 6000
+echo 10
+./pmr_h_005_presolve_2 -i testes/teste10.txt -o testes/teste10_6000.out -g -t 6000
+echo 11
+./pmr_h_005_presolve_2 -i testes/teste11.txt -o testes/teste11_6000.out -g -t 6000
+echo 12
+./pmr_h_005_presolve_2 -i testes/teste12.txt -o testes/teste12_6000.out -g -t 6000
+echo 200
+./pmr_h_005_presolve_2 -i testes/teste200.txt -o testes/teste200_6000.out -g -t 6000
+
+
+echo "Sem Heuristica e 0.00 de heuristics presolve 1"
+echo 01
+./pmr_noh_000_presolve_1 -i testes/teste01.txt -o testes/teste01_6000.out -g -t 6000
+echo 02
+./pmr_noh_000_presolve_1 -i testes/teste02.txt -o testes/teste02_6000.out -g -t 6000
+echo 03
+./pmr_noh_000_presolve_1 -i testes/teste03.txt -o testes/teste03_6000.out -g -t 6000
+echo 04
+./pmr_noh_000_presolve_1 -i testes/teste04.txt -o testes/teste04_6000.out -g -t 6000
+echo 05
+./pmr_noh_000_presolve_1 -i testes/teste05.txt -o testes/teste05_6000.out -g -t 6000
+echo 06
+./pmr_noh_000_presolve_1 -i testes/teste06.txt -o testes/teste06_6000.out -g -t 6000
+echo 07
+./pmr_noh_000_presolve_1 -i testes/teste07.txt -o testes/teste07_6000.out -g -t 6000
+echo 08
+./pmr_noh_000_presolve_1 -i testes/teste08.txt -o testes/teste08_6000.out -g -t 6000
+echo 09
+./pmr_noh_000_presolve_1 -i testes/teste09.txt -o testes/teste09_6000.out -g -t 6000
+echo 10
+./pmr_noh_000_presolve_1 -i testes/teste10.txt -o testes/teste10_6000.out -g -t 6000
+echo 11
+./pmr_noh_000_presolve_1 -i testes/teste11.txt -o testes/teste11_6000.out -g -t 6000
+echo 12
+./pmr_noh_000_presolve_1 -i testes/teste12.txt -o testes/teste12_6000.out -g -t 6000
+echo 200
+./pmr_noh_000_presolve_1 -i testes/teste200.txt -o testes/teste200_6000.out -g -t 6000
+
+echo "Sem Heuristica e 0.05 de heuristics presolve 1"
+echo 01
+./pmr_noh_005_presolve_1 -i testes/teste01.txt -o testes/teste01_6000.out -g -t 6000
+echo 02
+./pmr_noh_005_presolve_1 -i testes/teste02.txt -o testes/teste02_6000.out -g -t 6000
+echo 03
+./pmr_noh_005_presolve_1 -i testes/teste03.txt -o testes/teste03_6000.out -g -t 6000
+echo 04
+./pmr_noh_005_presolve_1 -i testes/teste04.txt -o testes/teste04_6000.out -g -t 6000
+echo 05
+./pmr_noh_005_presolve_1 -i testes/teste05.txt -o testes/teste05_6000.out -g -t 6000
+echo 06
+./pmr_noh_005_presolve_1 -i testes/teste06.txt -o testes/teste06_6000.out -g -t 6000
+echo 07
+./pmr_noh_005_presolve_1 -i testes/teste07.txt -o testes/teste07_6000.out -g -t 6000
+echo 08
+./pmr_noh_005_presolve_1 -i testes/teste08.txt -o testes/teste08_6000.out -g -t 6000
+echo 09
+./pmr_noh_005_presolve_1 -i testes/teste09.txt -o testes/teste09_6000.out -g -t 6000
+echo 10
+./pmr_noh_005_presolve_1 -i testes/teste10.txt -o testes/teste10_6000.out -g -t 6000
+echo 11
+./pmr_noh_005_presolve_1 -i testes/teste11.txt -o testes/teste11_6000.out -g -t 6000
+echo 12
+./pmr_noh_005_presolve_1 -i testes/teste12.txt -o testes/teste12_6000.out -g -t 6000
+echo 200
+./pmr_noh_005_presolve_1 -i testes/teste200.txt -o testes/teste200_6000.out -g -t 6000
+
+
+echo "Sem Heuristica e 0.00 de heuristics presolve 2"
+echo 01
+./pmr_noh_000_presolve_2 -i testes/teste01.txt -o testes/teste01_6000.out -g -t 6000
+echo 02
+./pmr_noh_000_presolve_2 -i testes/teste02.txt -o testes/teste02_6000.out -g -t 6000
+echo 03
+./pmr_noh_000_presolve_2 -i testes/teste03.txt -o testes/teste03_6000.out -g -t 6000
+echo 04
+./pmr_noh_000_presolve_2 -i testes/teste04.txt -o testes/teste04_6000.out -g -t 6000
+echo 05
+./pmr_noh_000_presolve_2 -i testes/teste05.txt -o testes/teste05_6000.out -g -t 6000
+echo 06
+./pmr_noh_000_presolve_2 -i testes/teste06.txt -o testes/teste06_6000.out -g -t 6000
+echo 07
+./pmr_noh_000_presolve_2 -i testes/teste07.txt -o testes/teste07_6000.out -g -t 6000
+echo 08
+./pmr_noh_000_presolve_2 -i testes/teste08.txt -o testes/teste08_6000.out -g -t 6000
+echo 09
+./pmr_noh_000_presolve_2 -i testes/teste09.txt -o testes/teste09_6000.out -g -t 6000
+echo 10
+./pmr_noh_000_presolve_2 -i testes/teste10.txt -o testes/teste10_6000.out -g -t 6000
+echo 11
+./pmr_noh_000_presolve_2 -i testes/teste11.txt -o testes/teste11_6000.out -g -t 6000
+echo 12
+./pmr_noh_000_presolve_2 -i testes/teste12.txt -o testes/teste12_6000.out -g -t 6000
+echo 200
+./pmr_noh_000_presolve_2 -i testes/teste200.txt -o testes/teste200_6000.out -g -t 6000
+
+
+echo "Sem Heuristica e 0.05 de heuristics presolve 2"
+echo 01
+./pmr_noh_005_presolve_2 -i testes/teste01.txt -o testes/teste01_6000.out -g -t 6000
+echo 02
+./pmr_noh_005_presolve_2 -i testes/teste02.txt -o testes/teste02_6000.out -g -t 6000
+echo 03
+./pmr_noh_005_presolve_2 -i testes/teste03.txt -o testes/teste03_6000.out -g -t 6000
+echo 04
+./pmr_noh_005_presolve_2 -i testes/teste04.txt -o testes/teste04_6000.out -g -t 6000
+echo 05
+./pmr_noh_005_presolve_2 -i testes/teste05.txt -o testes/teste05_6000.out -g -t 6000
+echo 06
+./pmr_noh_005_presolve_2 -i testes/teste06.txt -o testes/teste06_6000.out -g -t 6000
+echo 07
+./pmr_noh_005_presolve_2 -i testes/teste07.txt -o testes/teste07_6000.out -g -t 6000
+echo 08
+./pmr_noh_005_presolve_2 -i testes/teste08.txt -o testes/teste08_6000.out -g -t 6000
+echo 09
+./pmr_noh_005_presolve_2 -i testes/teste09.txt -o testes/teste09_6000.out -g -t 6000
+echo 10
+./pmr_noh_005_presolve_2 -i testes/teste10.txt -o testes/teste10_6000.out -g -t 6000
+echo 11
+./pmr_noh_005_presolve_2 -i testes/teste11.txt -o testes/teste11_6000.out -g -t 6000
+echo 12
+./pmr_noh_005_presolve_2 -i testes/teste12.txt -o testes/teste12_6000.out -g -t 6000
+echo 200
+./pmr_noh_005_presolve_2 -i testes/teste200.txt -o testes/teste200_6000.out -g -t 6000
+
+echo "Com Heuristica e 0.05 de heuristics presolve 1"
+echo 200
+./pmr_h_000_presolve_1 -i testes/teste200.txt -o testes/teste200_6000.out -g -t 6000
+echo 300
+./pmr_h_000_presolve_1 -i testes/teste300.txt -o testes/teste300_6000.out -g -t 6000
+echo 400
+./pmr_h_000_presolve_1 -i testes/teste400.txt -o testes/teste400_6000.out -g -t 6000
+echo 500
+./pmr_h_000_presolve_1 -i testes/teste600.txt -o testes/teste6000_6000.out -g -t 6000
+echo 600
+./pmr_h_000_presolve_1 -i testes/teste500.txt -o testes/teste500_6000.out -g -t 6000
+
+echo "Sem Heuristica e 0.05 de heuristics presolve 1"
+echo 200
+./pmr_noh_000_presolve_1 -i testes/teste200.txt -o testes/teste200_6000.out -g -t 6000
+echo 300
+./pmr_noh_000_presolve_1 -i testes/teste300.txt -o testes/teste300_6000.out -g -t 6000
+echo 400
+./pmr_noh_000_presolve_1 -i testes/teste400.txt -o testes/teste400_6000.out -g -t 6000
+echo 500
+./pmr_noh_000_presolve_1 -i testes/teste600.txt -o testes/teste6000_6000.out -g -t 6000
+echo 600
+./pmr_noh_000_presolve_1 -i testes/teste500.txt -o testes/teste500_6000.out -g -t 6000

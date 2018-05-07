@@ -23,50 +23,50 @@ static void alarm_handler(int sig) {
     got_interrupt = 1;
 }
 
-int quantItens_g;
-int* s_g;
-int* v_g;
-double** relation_array;
-int* itensMochila_array;
-int* itensMochila_array_partial;
-int* itensMochila_array_partial_id;
-int itensMochila_array_partial_count = 0;
-int max_partial = 0;
+int global_quantItens;
+int* global_weigth;
+int* global_value;
+double** global_relation_array;
+int* global_items_array;
+int* global_items_array_partial;
+int* global_items_array_partial_id;
+int global_items_array_partial_count = 0;
+int global_max_partial = 0;
 
 void algE_rec(int i, int capacity, int partial_val) {
     int id;
-    if (i == quantItens_g || capacity == 0 || got_interrupt)
+    if (i == global_quantItens || capacity == 0 || got_interrupt)
         return;
 
     // Analise without me
     algE_rec(i+1, capacity, partial_val);
 
     // If I fit
-    capacity -= s_g[i];
+    capacity -= global_weigth[i];
     if (capacity >= 0) {
-        itensMochila_array_partial[i] = 1;
-        itensMochila_array_partial_id[itensMochila_array_partial_count++] = i;
+        global_items_array_partial[i] = 1;
+        global_items_array_partial_id[global_items_array_partial_count++] = i;
 
         // Adds the relation values between items in the partial_items array and `i`, and `i` value itself
-        for (int j = 0; j < itensMochila_array_partial_count-1; j++) {
-            id = itensMochila_array_partial_id[j];
-            if (itensMochila_array_partial[id])
-                partial_val += relation_array[i][id];
+        for (int j = 0; j < global_items_array_partial_count-1; j++) {
+            id = global_items_array_partial_id[j];
+            if (global_items_array_partial[id])
+                partial_val += global_relation_array[i][id];
         }
-        partial_val += v_g[i];
+        partial_val += global_value[i];
 
         // save if better
-        if (partial_val > max_partial) {
-            max_partial = partial_val;
-            for (int j = 0; j < quantItens_g; j++) {
-                itensMochila_array[j] = itensMochila_array_partial[j];
+        if (partial_val > global_max_partial) {
+            global_max_partial = partial_val;
+            for (int j = 0; j < global_quantItens; j++) {
+                global_items_array[j] = global_items_array_partial[j];
             }
         }
 
         // Analise with me
         algE_rec(i+1, capacity, partial_val);
-        itensMochila_array_partial[i] = 0;
-        itensMochila_array_partial_count--;
+        global_items_array_partial[i] = 0;
+        global_items_array_partial_count--;
     }
 }
 
@@ -74,13 +74,13 @@ void algE_rec(int i, int capacity, int partial_val) {
 int get_best_id(int capacity) {
     double curr_v, max_v = 0;
     int max_v_i = -1;
-    for (int i = 0; i < quantItens_g; i++) {
+    for (int i = 0; i < global_quantItens; i++) {
         // skip if already in solution
-        if (itensMochila_array_partial[i])
+        if (global_items_array_partial[i])
             continue;
 
-        curr_v = (double)v_g[i] / s_g[i];
-        if (s_g[i] <= capacity && curr_v > max_v) {
+        curr_v = (double)global_value[i] / global_weigth[i];
+        if (global_weigth[i] <= capacity && curr_v > max_v) {
             max_v = curr_v;
             max_v_i = i;
         }
@@ -99,14 +99,14 @@ void algH_array(int &capacity) {
         if (best_id == -1)
             return;
 
-        capacity -= s_g[best_id];
-        max_partial += v_g[best_id];
-        itensMochila_array_partial[best_id] = 1;
+        capacity -= global_weigth[best_id];
+        global_max_partial += global_value[best_id];
+        global_items_array_partial[best_id] = 1;
 
         // update v[j] for all j outside of the solution with relation[best_id][j] value
-        for (j=0; j < quantItens_g; j++)
-            if (!itensMochila_array_partial[j])
-                v_g[j] += relation_array[best_id][j];
+        for (j=0; j < global_quantItens; j++)
+            if (!global_items_array_partial[j])
+                global_value[j] += global_relation_array[best_id][j];
     }
 }
 
@@ -115,38 +115,39 @@ int algE(int capacity, int quantItens, vector<int> s, vector<int> v, matriz &rel
     signal(SIGALRM, alarm_handler);
     alarm(maxTime);
 
-    s_g = &s[0];
-    v_g = &v[0];
-    itensMochila_array = (int*)calloc(quantItens, sizeof(int));
-    itensMochila_array_partial = (int*)calloc(quantItens, sizeof(int));
-    itensMochila_array_partial_id = (int*)calloc(quantItens, sizeof(int));
-    relation_array = (double**)malloc(quantItens * sizeof(double*));
+    global_weigth = &s[0];
+    global_value = &v[0];
+    global_items_array = (int*)calloc(quantItens, sizeof(int));
+    global_items_array_partial = (int*)calloc(quantItens, sizeof(int));
+    global_items_array_partial_id = (int*)calloc(quantItens, sizeof(int));
+    global_relation_array = (double**)malloc(quantItens * sizeof(double*));
     for (int i = 0; i < quantItens; i++) {
-        relation_array[i] = &relation[i][0];
+        global_relation_array[i] = &relation[i][0];
     }
-    max_partial = 0;
-    quantItens_g = quantItens;
+    global_max_partial = 0;
+    global_quantItens = quantItens;
 
     algE_rec(0, capacity, 0);
     // copy response
     for (int i = 0; i < quantItens; i++)
-        itensMochila[i] = itensMochila_array[i];
+        itensMochila[i] = global_items_array[i];
 
-    free(itensMochila_array);
-    free(itensMochila_array_partial);
-    free(itensMochila_array_partial_id);
-    free(relation_array);
-    return max_partial;
+    free(global_items_array);
+    free(global_items_array_partial);
+    free(global_items_array_partial_id);
+    free(global_relation_array);
+    return global_max_partial;
 }
 
 int algH(int capacity, int quantItens, vector<int> s, vector<int> v, matriz &relation, vector<int>& itensMochila, int maxTime) {
-    quantItens_g = quantItens;
-    s_g = &s[0];
-    v_g = &v[0];
-    itensMochila_array_partial = (int*)calloc(quantItens, sizeof(int));
-    relation_array = (double**)malloc(quantItens * sizeof(double*));
+    global_quantItens = quantItens;
+    global_max_partial = 0;
+    global_weigth = &s[0];
+    global_value = &v[0];
+    global_items_array_partial = (int*)calloc(quantItens, sizeof(int));
+    global_relation_array = (double**)malloc(quantItens * sizeof(double*));
     for (int i = 0; i < quantItens; i++) {
-        relation_array[i] = &relation[i][0];
+        global_relation_array[i] = &relation[i][0];
     }
 
     got_interrupt = false;
@@ -155,40 +156,51 @@ int algH(int capacity, int quantItens, vector<int> s, vector<int> v, matriz &rel
 
     algH_array(capacity);
 
-    for (int j = 0; j < quantItens_g; j++) {
-        itensMochila[j] = itensMochila_array_partial[j];
+    for (int j = 0; j < global_quantItens; j++) {
+        itensMochila[j] = global_items_array_partial[j];
     }
-    free(itensMochila_array_partial);
-    free(relation_array);
+    free(global_items_array_partial);
+    free(global_relation_array);
 
-    return max_partial;
+    return global_max_partial;
 }
 
 int algExato(int capacity, int quantItens, vector<int> s, vector<int> v, matriz &relation, vector<int>& itensMochila, int maxTime) {
-    double total_value;
-    double valor_h = algH(capacity, quantItens, s, v, relation, itensMochila, maxTime);
+    int verbose = true;
+    bool with_heuristic = true;
+    double grb_heuristics_time = 0.00;
+    int presolve = 2;
 
+    for (int i=0 ; i<quantItens ; i++)
+        itensMochila[i] = 0;
+
+    double valor_h;
+    if (with_heuristic)
+        valor_h = algH(capacity, quantItens, s, v, relation, itensMochila, maxTime);
+
+    vector<GRBVar> x(quantItens);
+    vector< vector<GRBVar> > y(quantItens);
+    GRBEnv env = GRBEnv();
+    GRBModel model = GRBModel(env);
     try {
-        vector<GRBVar> x(quantItens);
-        vector< vector<GRBVar> > y(quantItens);
-        GRBEnv env = GRBEnv();
-        GRBModel model = GRBModel(env);
 
         // Quiet gurobi
-        model.getEnv().set(GRB_IntParam_OutputFlag, 0);
+        model.getEnv().set(GRB_IntParam_OutputFlag, verbose);
 
         GRBLinExpr expr;
         model.set(GRB_StringAttr_ModelName, "Relational Knapsack Problem"); // gives a name to the problem
         model.set(GRB_IntAttr_ModelSense, GRB_MAXIMIZE); // says that lp is a maximization problem
         for (int i=0 ; i<quantItens ; i++) {
             x[i] = model.addVar(0.0, 1.0, v[i], GRB_BINARY, "");
-            // x[i].set(GRB_DoubleAttr_Start, itensMochila[i]);
+            if (with_heuristic)
+                x[i].set(GRB_DoubleAttr_Start, itensMochila[i]);
             expr += s[i]*x[i];
         }
         for (int i=0 ; i<quantItens ; i++) {
             for (int j=0 ; j<i ; j++) {
                 y[i].push_back(model.addVar(0.0, 1.0, relation[i][j], GRB_BINARY, ""));
-                // y[i][j].set(GRB_DoubleAttr_Start, itensMochila[i] && itensMochila[j]);
+                if (with_heuristic)
+                    y[i][j].set(GRB_DoubleAttr_Start, itensMochila[i] && itensMochila[j]);
                 model.addConstr(x[i]+x[j] <= y[i][j]+1);
                 model.addConstr(x[i]+x[j] >= 2*y[i][j]);
             }
@@ -200,15 +212,18 @@ int algExato(int capacity, int quantItens, vector<int> s, vector<int> v, matriz 
         // bound the execution time
         model.getEnv().set(GRB_DoubleParam_TimeLimit, maxTime);
         // bound the solution value
-        model.getEnv().set(GRB_DoubleParam_Cutoff, valor_h);
+        if (with_heuristic)
+            model.getEnv().set(GRB_DoubleParam_Cutoff, valor_h);
         // bound heuristics time
-        model.getEnv().set(GRB_DoubleParam_Heuristics, 0.05);
+        model.getEnv().set(GRB_DoubleParam_Heuristics, grb_heuristics_time);
         // set MIPFocus
-        model.getEnv().set(GRB_IntParam_MIPFocus, 0);
+        model.getEnv().set(GRB_IntParam_MIPFocus, 1);
+        // set Presolve approach
+        model.getEnv().set(GRB_IntParam_Presolve, presolve);
         model.update(); // Process any pending model modifications.
         model.optimize();
 
-        total_value = 0.0;
+        double total_value = 0.0;
         for (int i=0 ; i<quantItens ; i++) {
             if (x[i].get(GRB_DoubleAttr_X) > 0.999) {
                 total_value += v[i];
@@ -218,8 +233,7 @@ int algExato(int capacity, int quantItens, vector<int> s, vector<int> v, matriz 
                         total_value += relation[i][j];
                     }
                 }
-            }
-            else {
+            } else {
                 itensMochila[i] = 0;
             }
         }
@@ -233,7 +247,22 @@ int algExato(int capacity, int quantItens, vector<int> s, vector<int> v, matriz 
             exit(1);
         } else {
             cout << "Time's up" << endl;
-            return valor_h;
+            double total_value = 0.0;
+            double* xvals = model.get(GRB_DoubleAttr_X, model.getVars(), quantItens);
+            for (int i=0 ; i<quantItens ; i++) {
+                if (xvals[i] > 0.999) {
+                    total_value += v[i];
+                    itensMochila[i] = 1;
+                    for (int j=0 ; j<i ; j++) {
+                        if (xvals[j] > 0.999) {
+                            total_value += relation[i][j];
+                        }
+                    }
+                } else {
+                    itensMochila[i] = 0;
+                }
+            }
+            return total_value;
         }
     } catch (...) {
         printf("Exception...\n");
